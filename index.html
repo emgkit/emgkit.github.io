@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html id="top" lang="en">
+
+<head>
+    <!-- Google Analytics -->
+    <script type="application/javascript">
+    </script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="title" content="Emergency Supplies" />
+    <meta name="description" content="Emergency Supplies" />
+    <meta name="keywords" content="Emergency Supplies" />
+    <meta name="author" content="Emergency Supplies" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Emergency Supplies" />
+    <meta name="robots" content="" />
+
+    <meta property="og:site_name" content="Emergency Supplies" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://emgkit.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Emergency Supplies" />
+
+    <!-- For IE 9 and below. ICO 32x32 -->
+    <!--[if IE]><link rel="shortcut icon" href="assets/img/favicon/favicon.ico"><![endif]-->
+    <!-- Touch Icons - iOS and Android 2.1+ 180x180 -->
+    <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-favicon.png" />
+    <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 -->
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <!-- Bootstrap 5.1 -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Normalize -->
+    <link href="assets/css/normalize.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Theme -->
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" />
+
+    <!-- Title-->
+    <title>Emergency Supplies</title>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="layout-header">
+        <div class="container-fluid" style="height: 100%;">
+            <div class="row" style="height: 100%;">
+                <div class="col-xl-12" style="display: flex; align-items: center;">
+
+                    <!-- Nav 5 -->
+                    <nav class="navbar navbar-expand-lg">
+
+                        <a class="navbar-brand" href="#">Emergency Supplies</a>
+                        <div class="navbar-toggler-container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%">
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="/" target="_blank">Link 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/" target="_blank">Link 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/" target="_blank">Link 3</a>
+                                </li>-->
+                                <!--<li class="nav-item dropdown">
+						          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						            Dropdown
+						          </a>
+						          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						            <li><a class="dropdown-item" href="#">Action</a></li>
+						            <li><a class="dropdown-item" href="#">Another action</a></li>
+						            <li><hr class="dropdown-divider"></li>
+						            <li><a class="dropdown-item" href="#">Something else here</a></li>
+						          </ul>
+						        </li>-->
+                                <!--<li class="nav-item">
+						          <a class="nav-link disabled">Disabled</a>
+						        </li>-->
+                            </ul>
+                        </div>
+
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main id="layout-content" class="parallax-window" data-parallax="scroll" data-image-src="./assets/img/bg.jpg">
+
+        <!-- Catalog -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-12">
+
+                        <!-- Tag Sort-->
+                        <div id="sort-tags">
+                          <button onclick="viewAll()"><span class="icon">&#9673;</span> All</button>
+                          <button onclick="viewEssential()"><span class="icon">&#9733;</span> Essential</button>
+                          <button onclick="viewRecommended()"><span class="icon">&#10004;</span> Recommended</button>
+                          <button onclick="viewBugout()"><span class="icon">&#9752;</span> Bugout</button>
+                        </div>
+
+                        <!-- Catalog-->
+                        <div id="catalog">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Website Info -->
+                <div class="col-xl-4">
+                    <div class="copyright">&copy;
+                        <script type="application/javascript">
+                            document.write(/\d{4}/.exec(Date())[0])
+                        </script> All rights reserved.
+                    </div>
+                </div>
+
+                <!-- Sharing Buttons -->
+                <div class="col-xl-4">
+                    <div class="footer-share">
+
+                    </div>
+                </div>
+
+                <!-- Back to Top -->
+                <div class="col-xl-4">
+                    <div class="back-to-top"><a href="#top">#top</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- JQuery -->
+    <script src="assets/js/jquery.min.js" type="application/javascript"></script>
+
+    <!-- JQuery Images Loaded -->
+    <!-- Note: pkgd.min.js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js" type="application/javascript"></script>
+
+    <!-- Bootstrap 5.1 -->
+    <script src="assets/js/bootstrap.min.js" type="application/javascript"></script>
+
+    <!-- Anchor Smooth Scroll -->
+    <script src="assets/js/anchor-smooth-scroll.js" type="application/javascript"></script>
+
+    <!-- Category Databases  -->
+    <!-- <script src="catalog/databases/categories.js" type="application/javascript"></script>  -->
+    <script src="catalog/databases/shelter.js" type="application/javascript"></script>
+    <script src="catalog/databases/food.js" type="application/javascript"></script>
+    <script src="catalog/databases/water.js" type="application/javascript"></script>
+    <script src="catalog/databases/apparel.js" type="application/javascript"></script>
+    <script src="catalog/databases/bags.js" type="application/javascript"></script>
+    <script src="catalog/databases/knives.js" type="application/javascript"></script>
+    <script src="catalog/databases/tools.js" type="application/javascript"></script>
+    <script src="catalog/databases/electronics.js" type="application/javascript"></script>
+    <script src="catalog/databases/utilities.js" type="application/javascript"></script>
+    <script src="catalog/databases/hygiene.js" type="application/javascript"></script>
+    <script src="catalog/databases/hunting.js" type="application/javascript"></script>
+    <script src="catalog/databases/defense.js" type="application/javascript"></script>
+    <script src="catalog/databases/medkit.js" type="application/javascript"></script>
+    <script src="catalog/databases/guides.js" type="application/javascript"></script>
+
+    <!-- Categories Generator  -->
+    <script type="application/javascript">
+        $(document).ready(function() {
+
+            var base_url = window.location.origin;
+            var host = window.location.host;
+            var pathArray = window.location.pathname.split('/');
+
+            // Category Titles & Arrays
+            const categories =
+            [
+                ["Shelter",     [shelter]],
+                ["Food",        [food]],
+                ["Water",       [water]],
+                ["Apparel",     [apparel]],
+                ["Bags",        [bags]],
+                ["Knives",      [knives]],
+                ["Tools",       [tools]],
+                ["Electronics", [electronics]],
+                ["Utilities",   [utilities]],
+                ["Hygiene",     [hygiene]],
+                ["Hunting",     [hunting]],
+                ["Defense",     [defense]],
+                ["Medkit",      [medkit]],
+                ["Guides",      [guides]],
+            ];
+
+            // Generate Table of Contents
+            var toc_html = "";
+
+            for (var c = 0; c < categories.length; c++) {
+                toc_html +=
+                    '<li class="nav-item">' +
+                    '<a class="nav-link" href="#' + categories[c][0].toLowerCase() + '">' + categories[c][0] + '</a>' +
+                    '</li>';
+            }
+
+            //document.getElementById("toc").innerHTML = toc_html;
+            document.getElementsByClassName("navbar-nav")[0].innerHTML = toc_html;
+
+            // Generate Categoriy Section Titles
+            var categories_html = "";
+
+            for (var c = 0; c < categories.length; c++) {
+                categories_html +=
+                    '<h2 id=\"' + categories[c][0].toLowerCase() + '\">' + categories[c][0] + '</h2>' +
+                    '<div class=\"header-line\"></div>' +
+                    '<div id=\"category-' + categories[c][0].toLowerCase() + '\" class=\"category\">' +
+                    '</div>';
+            }
+
+            document.getElementById("catalog").innerHTML = categories_html;
+
+
+            // Generate Items
+            var items_html = "";
+
+            // Loop through Categories Array
+            for (var c = 0; c < categories.length; c++) {
+
+                // Genereate Category Items
+                for (var a = 0; a < categories[c][1].length; a++) {
+
+                    for (var i = 0; i < categories[c][1][a].length; i++) {
+
+                        var title = categories[c][1][a][i][0];
+                        var description = categories[c][1][a][i][1]
+                        var image = 'catalog/images/' + categories[c][0].toLowerCase() + '/' + categories[c][1][a][i][2]; // image.jpg
+                        var priority = categories[c][1][a][i][3]; // starred
+                        var url = categories[c][1][a][i][4]; // website link
+
+                        items_html +=
+                            '<a href=\"' + url + '\" target=\"_blank\" class=\"item-container ' + priority + '\">' +
+                            '<div class=\"img-wrapper\">' +
+                            '<img alt=\"\" src=\"' + image + '\">' +
+                            '</div>' +
+                            '<div class=\"info\">' +
+                            '<div class=\"title\">' +
+                            title +
+                            '</div>' +
+                            '<div class=\"description\">' +
+                            description +
+                            '</div>' +
+                            '</div>' +
+                            '</a>' +
+                            '';
+                      }
+                }
+
+                document.getElementById("category-" + categories[c][0].toLowerCase()).innerHTML = items_html;
+
+                items_html = ""; // clear
+            }
+        });
+    </script>
+
+    <!-- View/Hide Item by Tags -->
+    <script>
+        // View Essential
+        function viewEssential() {
+          var x = document.getElementsByClassName("item-container");
+          for (var i = 0; i < x.length; i++) {
+            if (x[i].classList.contains("essential")) {
+              x[i].style.setProperty('display', 'flex', '');
+            }
+            else {
+              x[i].style.setProperty('display', 'none', 'important');
+            }
+          }
+        }
+
+        // View Recommended
+        function viewRecommended() {
+          var x = document.getElementsByClassName("item-container");
+          for (var i = 0; i < x.length; i++) {
+            //var s = x[i].style.cssText;
+            if (x[i].classList.contains("essential") || x[i].classList.contains("recommend")) {
+              x[i].style.setProperty('display', 'flex', '');
+            }
+            else {
+              x[i].style.setProperty('display', 'none', 'important');
+            }
+          }
+        }
+
+        // View All
+        function viewBugout() {
+          // Hide Extra
+          var x = document.getElementsByClassName("item-container");
+          for (var i = 0; i < x.length; i++) {
+            //var s = x[i].style.cssText;
+            if (x[i].classList.contains("bugout")) {
+              x[i].style.setProperty('display', 'flex', '');
+            }
+            else {
+              x[i].style.setProperty('display', 'none', 'important');
+            }
+          }
+        }
+
+        // View All
+        function viewAll() {
+          // Hide Extra
+          var x = document.getElementsByClassName("item-container");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.setProperty('display', 'flex', '');
+          }
+        }
+    </script>
+
+</body>
+
+</html>
