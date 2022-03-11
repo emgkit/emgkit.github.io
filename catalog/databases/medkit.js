@@ -211,6 +211,24 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "Q-Tips",
+        /* Description */   "Cotton Swab",
+        /* Image */         "Q-Tips.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3w1EiCq"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Cotton Rounds",
+        /* Description */   "Lint-Free",
+        /* Image */         "Cotton-Rounds.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3CzG0wb"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Respirator",
         /* Description */   "3M Half-Face 7502",
         /* Image */         "3M-Half-Face-Respirator-7502.webp",
