@@ -43,7 +43,7 @@ const shelter =
     [   /* Title */         "Tarp",
         /* Description */   "Polyethylene, 20x20ft",
         /* Image */         "tarp.webp",
-        /* Tag */          "recommend",
+        /* Tag */           "recommend",
         /* URL */           "https://www.homedepot.com/p/Sigman-20-ft-x-20-ft-Blue-Tarp-BPF020020/205181564"
     ],
 
@@ -59,10 +59,10 @@ const shelter =
     // ----------------------------------------
 
     [   /* Title */         "Tent Stakes",
-        /* Description */   "Stainless Steel",
-        /* Image */         "tent-stakes.webp",
+        /* Description */   "Light, strong and rugged aluminum.",
+        /* Image */         "MSR-Ground-Hog-Tent-Stakes.webp",
         /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3KtvitN"
+        /* URL */           "https://amzn.to/3I4I7cj"
     ],
 
     // ----------------------------------------
@@ -70,8 +70,26 @@ const shelter =
     [   /* Title */         "Sleeping Bag",
         /* Description */   "SnugPak Basecamp Ops Sleeper Expedition",
         /* Image */         "snugpak-sleeping-bag.webp",
-        /* Priority */      "essential  bugout",
+        /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3vXI3Zw"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Bivvi Bag",
+        /* Description */   "Snugpak Special Forces",
+        /* Image */         "Snugpak-Special-Forces-Bivvi-Bag.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3MFGXHV"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Foam Sleeping Pad ",
+        /* Description */   "Therm-a-Rest RidgeRest",
+        /* Image */         "foam-sleeping-pad.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3J5duFb"
     ],
 
     // ----------------------------------------

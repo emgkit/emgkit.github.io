@@ -104,7 +104,7 @@ const medkit =
     // ----------------------------------------
 
     [   /* Title */         "Bandage",
-        /* Description */   "Cotton Elastic Bandage with Hook & Loop Fasteners.",
+        /* Description */   "Cotton Elastic Bandage with Hook \& Loop Fasteners.",
         /* Image */         "Cotton-Elastic-Bandage.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3I16O9u"
@@ -266,7 +266,7 @@ const medkit =
     // ----------------------------------------
 
     [   /* Title */         "Neosporin",
-        /* Description */   "Topical Antibiotic & Analgesic Ointment ",
+        /* Description */   "Topical Antibiotic \& Analgesic Ointment ",
         /* Image */         "Neosporin.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/37lbv1p"
@@ -319,8 +319,8 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "Cold & Flu Medicine",
-        /* Description */   "DayQuil & NyQuil",
+    [   /* Title */         "Cold \& Flu Medicine",
+        /* Description */   "DayQuil \& NyQuil",
         /* Image */         "Cold-and-Flu-Medicine.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/35PJA9j"

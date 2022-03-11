@@ -4,6 +4,24 @@ const water =
     // Water
     // ----------------------------------------
 
+    [   /* Title */         "Water Can 5-Gallon",
+        /* Description */   "Scepter, Wide Mouth",
+        /* Image */         "Scepter-5-Gallon-Water-Can-Wide.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3hXAtpw"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Water Can 5-Gallon",
+        /* Description */   "Scepter, Military Style",
+        /* Image */         "water-can-5gal.webp",
+        /* Priority */      "essential",
+        /* URL */           "https://amzn.to/3pTHjkm"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Canteen 64oz",
         /* Description */   "Stainless Steel",
         /* Image */         "canteen-64oz.webp",
@@ -40,24 +58,6 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "Water Can 5-Gallon",
-        /* Description */   "Scepter, Military Style",
-        /* Image */         "water-can-5gal.webp",
-        /* Priority */      "essential",
-        /* URL */           "https://amzn.to/3pTHjkm"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Water Can 5-Gallon",
-        /* Description */   "Scepter, Wide Mouth",
-        /* Image */         "Scepter-5-Gallon-Water-Can-Wide.webp",
-        /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3hXAtpw"
-    ],
-
-    // ----------------------------------------
-
     [   /* Title */         "Water Filtration System 1-Gallon",
         /* Description */   "Sawyer",
         /* Image */         "Sawyer-Products-SP160-1-Gallon-Gravity-Water-Filtration-System.webp",
@@ -70,8 +70,17 @@ const water =
     [   /* Title */         "Water Filtration System",
         /* Description */   "Sawyer Squeeze",
         /* Image */         "Sawyer-Products-Squeeze-Water-Filtration-System.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3hTa4cu"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Water Purifier Bottle",
+        /* Description */   "GRAYL GeoPress 24 oz ",
+        /* Image */         "GRAYL-GeoPress-24oz-Water-Purifier-Bottle.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3tTLb6h"
     ],
 
     // ----------------------------------------
@@ -79,7 +88,7 @@ const water =
     [   /* Title */         "Personal Water Filter",
         /* Description */   "LifeStraw",
         /* Image */         "lifestraw.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3hT9WtJ"
     ],
 

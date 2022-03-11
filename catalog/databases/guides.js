@@ -140,7 +140,7 @@ const guides =
     // ----------------------------------------
 
     [   /* Title */         "Road Atlas",
-        /* Description */   "Road Atlas & National Park Guide",
+        /* Description */   "Road Atlas \& National Park Guide",
         /* Image */         "Road-Atlas.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3sZPeyu"

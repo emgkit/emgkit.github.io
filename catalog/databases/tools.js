@@ -76,6 +76,15 @@ const tools =
 
     // ----------------------------------------
 
+    [   /* Title */         "4-Way Sillcock Key",
+        /* Description */   "Fits Sillcock, Faucet, Spigots, Valves, Hose Bib.",
+        /* Image */         "4-Way-Sillcock-Key.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3J6mU38"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Diagonal Cutters",
         /* Description */   "8 in, For cutting steel wire.",
         /* Image */         "Diagonal-Cutters.webp",
@@ -135,6 +144,15 @@ const tools =
         /* Image */         "USGI-E-Tool-Case.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3pSxanW"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Breaching Tool",
+        /* Description */   "Mini Pry Tool for Breaching Operations.",
+        /* Image */         "Breaching-Tool.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/35TKamt"
     ],
 
     // ----------------------------------------

@@ -16,7 +16,7 @@ const apparel =
     [   /* Title */         "Mosquito Head Net",
         /* Description */   "Requires Hat to hang from.",
         /* Image */         "Mosquito-Head-Net.webp",
-        /* Priority */      "extra bugout",
+        /* Priority */      "extra",
         /* URL */           "https://amzn.to/3HXf5v5"
     ],
 
@@ -49,15 +49,6 @@ const apparel =
 
     // ----------------------------------------
 
-    [   /* Title */         "Thermal Underwear",
-        /* Description */   "Note: May run small. Size up.",
-        /* Image */         "Thermal-Underwear.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3MDOgzP"
-    ],
-
-    // ----------------------------------------
-
     [   /* Title */         "Poncho",
         /* Description */   "For rain emergencies.",
         /* Image */         "poncho.webp",
@@ -70,17 +61,26 @@ const apparel =
     [   /* Title */         "Poncho (Disposable)",
         /* Description */   "For rain emergencies.",
         /* Image */         "poncho-disposable.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3pT1a3j"
     ],
 
     // ----------------------------------------
 
     [   /* Title */         "Shelter Half",
-        /* Description */   "Military Rain Cape / Half Tent",
+        /* Description */   "Military Rain Cape \/ Half Tent",
         /* Image */         "shelter-half.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3Kv8jyu"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Goretex Jacket \& Pants",
+        /* Description */   "Military Issue, Waterproof",
+        /* Image */         "Goretex.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/37pFa9N"
     ],
 
     // ----------------------------------------
@@ -94,11 +94,29 @@ const apparel =
 
     // ----------------------------------------
 
+    [   /* Title */         "Thermal Underwear",
+        /* Description */   "Note: May run small. Size up.",
+        /* Image */         "Thermal-Underwear.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3MDOgzP"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Work Gloves",
         /* Description */   "Leather",
         /* Image */         "Well-Lamont-Leather-Work-Gloves.webp",
         /* Priority */      "essential",
         /* URL */           "https://amzn.to/35G3YtJ"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Wool Socks",
+        /* Description */   "",
+        /* Image */         "wool-socks.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3t3lT6f"
     ],
 
 ];

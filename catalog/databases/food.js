@@ -31,6 +31,15 @@ const food =
 
     // ----------------------------------------
 
+    [   /* Title */         "Titanium Spork",
+        /* Description */   "Ultra Lightweight",
+        /* Image */         "Titanium-Spork.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3qkiUov"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Stanley 2 Bowl Cook Set",
         /* Description */   "Stainless Steel, 20oz",
         /* Image */         "2-Bowl-Cook-Set.webp",
@@ -65,6 +74,14 @@ const food =
         /* URL */           "https://amzn.to/3J1A41m"
     ],
 
+    // ----------------------------------------
+
+    [   /* Title */         "Emergency Stove",
+        /* Description */   "Requires no liquids, priming, or wick.",
+        /* Image */         "Emergency-Stove.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3tMt7Li"
+    ],
 
     // ----------------------------------------
 
@@ -87,10 +104,19 @@ const food =
     // ----------------------------------------
 
     [   /* Title */         "Can Opener",
-        /* Description */   "",
+        /* Description */   "Full Size",
         /* Image */         "can-opener.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "essential",
         /* URL */           "https://amzn.to/3pPjbz9"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Can Opener",
+        /* Description */   "Military Style, Small",
+        /* Image */         "Military-Style-Can-Opener.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3vZyqcI"
     ],
 
     // ----------------------------------------
@@ -144,6 +170,15 @@ const food =
         /* Image */         "MRE.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3hWJ7os"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Freeze Dried Food",
+        /* Description */   "",
+        /* Image */         "Freeze-Dried-Food.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3tSkM8P"
     ],
 
     // ----------------------------------------
