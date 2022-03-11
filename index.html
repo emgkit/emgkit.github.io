@@ -343,6 +343,7 @@
                 // Generate Item Symbols
                 const item_html = document.getElementsByClassName("item-container");
                 for (var i = 0; i < item_html.length; i++) {
+                  // Essential Shamrock
                   if (item_html[i].classList.contains("essential") && item_html[i].classList.contains("bugout")) {
                     document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9752;&#xFE0E;";
                   }
