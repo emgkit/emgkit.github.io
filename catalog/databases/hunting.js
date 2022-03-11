@@ -4,6 +4,15 @@ const hunting =
     // Hunting
     // ----------------------------------------
 
+    [   /* Title */         "Cooler",
+        /* Description */   "Igloo 25qt",
+        /* Image */         "cooler-25qt.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3w4o1wJ"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Telescopic Fishing Rod",
         /* Description */   "Zebco 33 Reel and Rod Combo",
         /* Image */         "Telescopic-Fishing-Rod.webp",
@@ -40,11 +49,20 @@ const hunting =
 
     // ----------------------------------------
 
+    //[   /* Title */         "Fish Bait",
+    //    /* Description */   "Berkley PowerBait",
+    //    /* Image */         "fish-bait.webp",
+    //    /* Priority */      "essential bugout",
+    //    /* URL */           "https://amzn.to/3hZ4KVa"
+    //],
+
+    // ----------------------------------------
+
     [   /* Title */         "Fish Bait",
-        /* Description */   "Berkley PowerBait",
-        /* Image */         "fish-bait.webp",
+        /* Description */   "Salmon Eggs",
+        /* Image */         "bait-salmon-eggs.webp",
         /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3hZ4KVa"
+        /* URL */           "https://amzn.to/35UffX8"
     ],
 
     // ----------------------------------------

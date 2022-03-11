@@ -4,6 +4,15 @@ const food =
     // Food
     // ----------------------------------------
 
+    [   /* Title */         "Cooler",
+        /* Description */   "Igloo 52qt",
+        /* Image */         "cooler.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3CBii2t"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Mess Kit",
         /* Description */   "USGI, Stainless Steel",
         /* Image */         "mess-kit.webp",
@@ -18,6 +27,15 @@ const food =
         /* Image */         "mess-kit-silverware.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://www.ebay.com/sch/i.html?_nkw=usgi+mess+kit+silverware&_sacat=0&rt=nc&LH_BIN=1"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Stanley 2 Bowl Cook Set",
+        /* Description */   "Stainless Steel, 20oz",
+        /* Image */         "2-Bowl-Cook-Set.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3CCcVQt"
     ],
 
     // ----------------------------------------
