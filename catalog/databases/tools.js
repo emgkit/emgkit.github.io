@@ -103,8 +103,8 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "Wood Hand Saw",
-        /* Description */   "15 inch",
+    [   /* Title */         "Hand Saw",
+        /* Description */   "For cutting wood.",
         /* Image */         "Saw.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3hYOaER"

@@ -229,6 +229,15 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "Dust Masks",
+        /* Description */   "Basic protection against non-toxic dust, pollen, mold and dander.",
+        /* Image */         "Dust-Mask.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3sZVzdf"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Antibiotics",
         /* Description */   "JASE Medical",
         /* Image */         "antibiotics.webp",
@@ -252,6 +261,15 @@ const medkit =
         /* Image */         "saline-nasal-spray.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3tLGwmF"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Sunscreen",
+        /* Description */   "SPF 50",
+        /* Image */         "Sunscreen.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3I6NfNb"
     ],
 
     // ----------------------------------------

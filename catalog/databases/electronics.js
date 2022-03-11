@@ -67,6 +67,15 @@ const electronics =
 
     // ----------------------------------------
 
+    [   /* Title */         "Headlamp",
+        /* Description */   "Dual Color (White & Red) LED, 365 Lumen, 3AAA",
+        /* Image */         "Headlamp.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3I6LNud"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Hand Crank Radio",
         /* Description */   "3 charging methods",
         /* Image */         "Hand-Crank-Radio.webp",
