@@ -67,6 +67,15 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "Sutures",
+        /* Description */   "Sterile Thread with Needle, plus Tools.",
+        /* Image */         "Sutures.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3Ja4ePZ"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Band-Aids",
         /* Description */   "For small cuts.",
         /* Image */         "Band-Aids.webp",
