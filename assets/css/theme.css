@@ -637,7 +637,7 @@ ul#toc {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
-    margin: 0 0 5.5rem 0;
+    margin-bottom: 5.5rem !important;
     padding: 0;
 }
 
