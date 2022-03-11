@@ -22,6 +22,15 @@ const bags =
 
     // ----------------------------------------
 
+    [   /* Title */         "Backpack 50L",
+        /* Description */   "Osprey Rook 50",
+        /* Image */         "Osprey-Rook-50.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3J7JlF0"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Backpack 37L",
         /* Description */   "5.11 Tactical RUSH24 2.0, MOLLE",
         /* Image */         "5.11-RUSH24-2.0-Backpack-37L.webp",
