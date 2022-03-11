@@ -113,10 +113,10 @@
 
                         <!-- Tag Sort-->
                         <div id="sort-tags">
-                          <button onclick="viewAll()"><span class="icon">&#9673;&#xFE0E;</span> All</button>
-                          <button onclick="viewEssential()"><span class="icon">&#9733;&#xFE0E;</span> Essential</button>
-                          <button onclick="viewRecommended()"><span class="icon">&#10004;&#xFE0E;</span> Recommended</button>
-                          <button onclick="viewBugout()"><span class="icon">&#9752;&#xFE0E;</span> Bugout</button>
+                          <button onclick="viewAll()"><span class="icon" style="color: #ff0000;">&#9673;&#xFE0E;</span> All</button>
+                          <button onclick="viewEssential()"><span class="icon" style="color: #f7b900;">&#9733;&#xFE0E;</span> Essential</button>
+                          <button onclick="viewRecommended()"><span class="icon" style="color: #0070FF;">&#10004;&#xFE0E;</span> Recommended</button>
+                          <button onclick="viewBugout()"><span class="icon" style="color: #4CBB17;">&#9752;&#xFE0E;</span> Bugout</button>
                         </div>
 
                         <!-- Catalog-->
@@ -343,12 +343,15 @@
                 // Generate Item Symbols
                 const item_html = document.getElementsByClassName("item-container");
                 for (var i = 0; i < item_html.length; i++) {
+                  if (item_html[i].classList.contains("essential") && item_html[i].classList.contains("bugout")) {
+                    document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9752;&#xFE0E;";
+                  }
                   // Essentials Star
-                  if (item_html[i].classList.contains("essential")) {
+                  else if (item_html[i].classList.contains("essential")) {
                     document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9733;&#xFE0E;";
                   }
                   // Bugout Shamrock
-                  if (item_html[i].classList.contains("bugout")) {
+                  else if (item_html[i].classList.contains("bugout")) {
                     document.getElementsByClassName("symbol-bugout")[i].innerHTML = "&#9752;&#xFE0E;";
                   }
                 }
