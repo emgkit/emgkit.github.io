@@ -993,6 +993,15 @@ ul#toc {
   color: #ff0000;
 }
 
+#sort-tags button:hover {
+  background-color: #fbfbfb;
+}
+
+#sort-tags button:focus {
+  box-shadow: none !important;
+}
+
+
 /* --- Items --- */
 
 #catalog .item-container {
