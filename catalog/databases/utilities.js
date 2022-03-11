@@ -94,6 +94,15 @@ const utilities =
 
     // ----------------------------------------
 
+    [   /* Title */         "Highway Flare Kit",
+        /* Description */   "6 30-minute flares and 1 high visibility safety vest.",
+        /* Image */         "Flare-Kit.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3KFJQGV"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Fire Extinguishing Spray",
         /* Description */   "First Alert",
         /* Image */         "Fire-Extinguishing-Aerosol-Spray.webp",
