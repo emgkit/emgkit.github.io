@@ -77,11 +77,20 @@ const water =
     // ----------------------------------------
 
     [   /* Title */         "Water Filtration System",
-        /* Description */   "Sawyer Squeeze",
-        /* Image */         "Sawyer-Products-Squeeze-Water-Filtration-System.webp",
+        /* Description */   "Sawyer MINI",
+        /* Image */         "Sawyer-MINI-Water-Filtration.webp",
         /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3hTa4cu"
+        /* URL */           "https://amzn.to/3tICoE0"
     ],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "Water Filtration System",
+    //    /* Description */   "Sawyer Squeeze",
+    //    /* Image */         "Sawyer-Products-Squeeze-Water-Filtration-System.webp",
+    //    /* Priority */      "recommend",
+    //    /* URL */           "https://amzn.to/3hTa4cu"
+    //],
 
     // ----------------------------------------
 
