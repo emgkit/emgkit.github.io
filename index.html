@@ -277,11 +277,10 @@
             for (var c = 0; c < categories.length; c++) {
                 toc_html +=
                     '<li class="nav-item">' +
-                    '<a class="nav-link" href="#' + categories[c][0].toLowerCase() + '">' + categories[c][0] + '</a>' +
+                        '<a class="nav-link" href="#' + categories[c][0].toLowerCase() + '">' + categories[c][0] + '</a>' +
                     '</li>';
             }
 
-            //document.getElementById("toc").innerHTML = toc_html;
             document.getElementsByClassName("navbar-nav")[0].innerHTML = toc_html;
 
             // Generate Categoriy Section Titles
@@ -317,17 +316,21 @@
 
                         items_html +=
                             '<a href=\"' + url + '\" target=\"_blank\" class=\"item-container ' + priority + '\">' +
-                            '<div class=\"img-wrapper\">' +
-                            '<img alt=\"\" src=\"' + image + '\">' +
-                            '</div>' +
-                            '<div class=\"info\">' +
-                            '<div class=\"title\">' +
-                            title +
-                            '</div>' +
-                            '<div class=\"description\">' +
-                            description +
-                            '</div>' +
-                            '</div>' +
+                                '<div class=\"symbols\">' +
+                                  '<div class=\"symbol-essential\"></div>' +
+                                  '<div class=\"symbol-bugout\"></div>' +
+                                '</div>' +
+                                '<div class=\"img-wrapper\">' +
+                                    '<img alt=\"\" src=\"' + image + '\">' +
+                                '</div>' +
+                                '<div class=\"info\">' +
+                                    '<div class=\"title\">' +
+                                        title +
+                                    '</div>' +
+                                    '<div class=\"description\">' +
+                                        description +
+                                    '</div>' +
+                                '</div>' +
                             '</a>' +
                             '';
                       }
@@ -336,12 +339,25 @@
                 document.getElementById("category-" + categories[c][0].toLowerCase()).innerHTML = items_html;
 
                 items_html = ""; // clear
+
+                // Generate Item Symbols
+                const item_html = document.getElementsByClassName("item-container");
+                for (var i = 0; i < item_html.length; i++) {
+                  // Essentials Star
+                  if (item_html[i].classList.contains("essential")) {
+                    document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9733;&#xFE0E;";
+                  }
+                  // Bugout Shamrock
+                  if (item_html[i].classList.contains("bugout")) {
+                    document.getElementsByClassName("symbol-bugout")[i].innerHTML = "&#9752;&#xFE0E;";
+                  }
+                }
             }
         });
     </script>
 
     <!-- View/Hide Item by Tags -->
-    <script>
+    <script type="application/javascript">
         // View Essential
         function viewEssential() {
           var x = document.getElementsByClassName("item-container");

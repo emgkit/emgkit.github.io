@@ -22,7 +22,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> IFAK Pouch",
+    [   /* Title */         "IFAK Pouch",
         /* Description */   "Compact Tactical Headrest Molle Bag",
         /* Image */         "5.11-Tactical-UCR-IFAK-Pouch.webp",
         /* Priority */      "essential bugout",
@@ -40,7 +40,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Trauma Shears",
+    [   /* Title */         "Trauma Shears",
         /* Description */   "For cutting clothing and bandages.",
         /* Image */         "Trauma-Shears.webp",
         /* Priority */      "essential bugout",
@@ -67,7 +67,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Band-Aids",
+    [   /* Title */         "Band-Aids",
         /* Description */   "For small cuts.",
         /* Image */         "Band-Aids.webp",
         /* Priority */      "essential bugout",
@@ -76,7 +76,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Gauze",
+    [   /* Title */         "Gauze",
         /* Description */   "Wound dressing",
         /* Image */         "Gauze.webp",
         /* Priority */      "essential bugout",
@@ -94,7 +94,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Bandage",
+    [   /* Title */         "Bandage",
         /* Description */   "Cotton Elastic Bandage with Hook & Loop Fasteners.",
         /* Image */         "Cotton-Elastic-Bandage.webp",
         /* Priority */      "essential bugout",
@@ -103,7 +103,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Israeli Bandage",
+    [   /* Title */         "Israeli Bandage",
         /* Description */   "Compression Bandage",
         /* Image */         "Israeli-Bandage.webp",
         /* Priority */      "essential bugout",
@@ -130,7 +130,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> CAT Tourniquet",
+    [   /* Title */         "CAT Tourniquet",
         /* Description */   "Stop blood flow in case of a traumatic wound.",
         /* Image */         "CAT-Tourniquet.webp",
         /* Priority */      "essential bugout",
@@ -229,7 +229,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Rubbing Alochol",
+    [   /* Title */         "Rubbing Alochol",
         /* Description */   "Sterilization, 70%, 16oz",
         /* Image */         "Rubbing-Alcohol.webp",
         /* Priority */      "essential bugout",

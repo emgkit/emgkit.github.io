@@ -4,7 +4,7 @@ const shelter =
     // Shelter
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Tent - 1 Person",
+    [   /* Title */         "Tent - 1 Person",
         /* Description */   "Snugpak Ionosphere, 4 Season",
         /* Image */         "snugpak-ionosphere-tent-1-person.webp",
         /* Priority */      "essential bugout",
@@ -67,7 +67,7 @@ const shelter =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Sleeping Bag",
+    [   /* Title */         "Sleeping Bag",
         /* Description */   "SnugPak Basecamp Ops Sleeper Expedition",
         /* Image */         "snugpak-sleeping-bag.webp",
         /* Priority */      "essential  bugout",
@@ -76,7 +76,7 @@ const shelter =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Mylar Blankets",
+    [   /* Title */         "Mylar Blankets",
         /* Description */   "Emergency Thermal Blankets",
         /* Image */         "mylar-blanket.webp",
         /* Priority */      "essential  bugout",

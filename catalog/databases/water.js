@@ -13,7 +13,7 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Canteen 40oz",
+    [   /* Title */         "Canteen 40oz",
         /* Description */   "Stainless Steel",
         /* Image */         "canteen-40oz.webp",
         /* Priority */      "essential bugout",
@@ -40,7 +40,7 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Water Can 5-Gallon",
+    [   /* Title */         "Water Can 5-Gallon",
         /* Description */   "Scepter, Military Style",
         /* Image */         "water-can-5gal.webp",
         /* Priority */      "essential",
@@ -58,7 +58,7 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Water Filtration System 1-Gallon",
+    [   /* Title */         "Water Filtration System 1-Gallon",
         /* Description */   "Sawyer",
         /* Image */         "Sawyer-Products-SP160-1-Gallon-Gravity-Water-Filtration-System.webp",
         /* Priority */      "essential",
@@ -85,7 +85,7 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Water Purification Tablets",
+    [   /* Title */         "Water Purification Tablets",
         /* Description */   "Aquatabs",
         /* Image */         "aquatabs-water-purification-tablets.webp",
         /* Priority */      "essential bugout",

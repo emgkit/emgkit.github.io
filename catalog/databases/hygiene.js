@@ -4,7 +4,7 @@ const hygiene =
     // Hygiene
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Wet Wipes",
+    [   /* Title */         "Wet Wipes",
         /* Description */   "70% Alcohol Hand Sanitizer",
         /* Image */         "Wet-Wipes.webp",
         /* Priority */      "essential bugout",

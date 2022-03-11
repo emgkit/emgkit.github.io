@@ -22,7 +22,7 @@ const bags =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Backpack 37L",
+    [   /* Title */         "Backpack 37L",
         /* Description */   "5.11 RUSH24 2.0",
         /* Image */         "5.11-RUSH24-2.0-Backpack-37L.webp",
         /* Priority */      "essential bugout",

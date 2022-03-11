@@ -13,7 +13,7 @@ const defense =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Pepper Spray",
+    [   /* Title */         "Pepper Spray",
         /* Description */   "Mace PepperGuard",
         /* Image */         "Mace-PepperGuard.webp",
         /* Priority */      "essential",

@@ -49,7 +49,7 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Morakniv Companion",
+    [   /* Title */         "Morakniv Companion",
         /* Description */   "4.1in Blade, Fixed Blade, Stainless Steel",
         /* Image */         "4.1in-Morakniv-Companion-Fixed-Blade-Outdoor-Knife-Sandvik-Stainless-Steel.webp",
         /* Priority */      "essential bugout",
@@ -94,7 +94,7 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Victorinox Huntsman",
+    [   /* Title */         "Victorinox Huntsman",
         /* Description */   "Pocket Knife",
         /* Image */         "Victorinox-Swiss-Army-Huntsman-Pocket-Knife.webp",
         /* Priority */      "recommend bugout",
@@ -103,7 +103,7 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> 2-Step Knife Sharpener",
+    [   /* Title */         "2-Step Knife Sharpener",
         /* Description */   "Smith's",
         /* Image */         "Smith's-2-Step-Knife-Sharpener.webp",
         /* Priority */      "essential bugout",

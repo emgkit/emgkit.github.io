@@ -112,7 +112,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Folding Saw",
+    [   /* Title */         "Folding Saw",
         /* Description */   "For cutting tree branches.",
         /* Image */         "Silky-PocketBoy-Folding-Saw-Medium-Teeth.webp",
         /* Priority */      "essential bugout",
@@ -121,7 +121,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> E-Tool Shovel",
+    [   /* Title */         "E-Tool Shovel",
         /* Description */   "Ames USGI",
         /* Image */         "Ames-E-Tool.webp",
         /* Priority */      "essential bugout",
@@ -148,7 +148,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Multitool",
+    [   /* Title */         "Multitool",
         /* Description */   "Leatherman Wingman",
         /* Image */         "Leatherman-Wingman-Multitool.webp",
         /* Priority */      "essential bugout",
@@ -166,7 +166,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> 550 Parcord",
+    [   /* Title */         "550 Parcord",
         /* Description */   "Mil-Spec Type III",
         /* Image */         "Paracord.webp",
         /* Priority */      "essential bugout",
@@ -175,7 +175,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Duct Tape",
+    [   /* Title */         "Duct Tape",
         /* Description */   "60 Yard",
         /* Image */         "Duck-Tape.webp",
         /* Priority */      "essential",

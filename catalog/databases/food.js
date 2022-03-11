@@ -4,7 +4,7 @@ const food =
     // Food
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Mess Kit",
+    [   /* Title */         "Mess Kit",
         /* Description */   "USGI, Stainless Steel",
         /* Image */         "mess-kit.webp",
         /* Priority */      "essential bugout",
@@ -68,7 +68,7 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Can Opener",
+    [   /* Title */         "Can Opener",
         /* Description */   "",
         /* Image */         "can-opener.webp",
         /* Priority */      "essential bugout",
@@ -103,11 +103,20 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Canned Food",
+    [   /* Title */         "Canned Food",
         /* Description */   "",
         /* Image */         "canned-food.webp",
         /* Priority */      "essential",
         /* URL */           "https://www.walmart.com/search?q=Canned+Food"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "30-Day Food Supply Bucket",
+        /* Description */   "Lunch, Dinner, Drinks and Snacks",
+        /* Image */         "30-day-food-supply-bucket.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3pYf8AJ"
     ],
 
     // ----------------------------------------
@@ -121,7 +130,7 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> SOS Food Bar",
+    [   /* Title */         "SOS Food Bar",
         /* Description */   "3600 Calories, 3-Day Package, 5-Year Shelf Life",
         /* Image */         "food-bar.webp",
         /* Priority */      "essential bugout",

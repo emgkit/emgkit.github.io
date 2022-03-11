@@ -58,7 +58,7 @@ const apparel =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Poncho",
+    [   /* Title */         "Poncho",
         /* Description */   "For rain emergencies.",
         /* Image */         "poncho.webp",
         /* Priority */      "essential bugout",
@@ -94,7 +94,7 @@ const apparel =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Work Gloves",
+    [   /* Title */         "Work Gloves",
         /* Description */   "Leather",
         /* Image */         "Well-Lamont-Leather-Work-Gloves.webp",
         /* Priority */      "essential",

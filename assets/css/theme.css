@@ -1023,7 +1023,7 @@ ul#toc {
 }
 
 #catalog .img-wrapper img {
-    padding: 0.7rem 0.5rem;
+    padding: 0.7rem 0.7rem;
 }
 
 #catalog .info {
@@ -1276,11 +1276,29 @@ ul#toc {
 }
 
 
-/* ----- Essential Tag ----- */
-.starred {
+/* ----- Symbols ----- */
+/*.starred {
     color: #f7b900;
+}*/
+.item-container .symbols {
+  z-index: 999;
+  display: flex;
+  position: absolute;
+  width: fit-content;
+  margin: -3px 0 0 -3px;
+  font-size: 1rem;
+  color: #f7b900;
+  text-shadow: 2px 2px 4px #fff;
 }
-
+.symbol-essential {
+  width: fit-content;
+  padding: 0 2px 0 0;
+  color: #f7b900;
+}
+.symbol-bugout {
+  width: fit-content;
+  color: #4CBB17;
+}
 
 /* ------- Footer ------- */
 

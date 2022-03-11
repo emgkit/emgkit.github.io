@@ -31,7 +31,7 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Speedhooks",
+    [   /* Title */         "Speedhooks",
         /* Description */   "No fishing pole required",
         /* Image */         "Speedhooks.webp",
         /* Priority */      "essential bugout",
@@ -40,7 +40,7 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Fish Bait",
+    [   /* Title */         "Fish Bait",
         /* Description */   "Berkley PowerBait",
         /* Image */         "fish-bait.webp",
         /* Priority */      "essential bugout",
@@ -76,7 +76,7 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Snare Wire",
+    [   /* Title */         "Snare Wire",
         /* Description */   "Small Game Trapping",
         /* Image */         "Snare-Wire.webp",
         /* Priority */      "essential bugout",

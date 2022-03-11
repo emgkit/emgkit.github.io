@@ -50,7 +50,7 @@ const utilities =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Lighters",
+    [   /* Title */         "Lighters",
         /* Description */   "BIC, Fire Starter",
         /* Image */         "lighter.webp",
         /* Priority */      "essential bugout",
@@ -94,7 +94,7 @@ const utilities =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Fire Extinguishing Spray",
+    [   /* Title */         "Fire Extinguishing Spray",
         /* Description */   "First Alert",
         /* Image */         "Fire-Extinguishing-Aerosol-Spray.webp",
         /* Priority */      "essential",

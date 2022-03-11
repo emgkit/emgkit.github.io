@@ -4,7 +4,7 @@ const guides =
     // Guides
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> First Aid Manual",
+    [   /* Title */         "First Aid Manual",
         /* Description */   "ACEP, 100 different conditions.",
         /* Image */         "ACEP-First-Aid-Manual-5th-Edition.webp",
         /* Priority */      "essential",
@@ -121,7 +121,7 @@ const guides =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Knot Card",
+    [   /* Title */         "Knot Card",
         /* Description */   "Waterproof",
         /* Image */         "Pro-Knot-Outdoor-Rope-Knot-Cards.webp",
         /* Priority */      "essential bugout",
@@ -148,7 +148,7 @@ const guides =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Folded Map",
+    [   /* Title */         "Folded Map",
         /* Description */   "Specific to your Country or State.",
         /* Image */         "Folded Map United States.webp",
         /* Priority */      "essential bugout",

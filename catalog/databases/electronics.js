@@ -49,7 +49,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "<span class=\"starred\">&#9733;</span> Flashlight",
+    [   /* Title */         "Flashlight",
         /* Description */   "Streamlight 68750 Dualie 3AA 140-Lumen",
         /* Image */         "Streamlight-68750-Dualie-3AA-140-Lumen.webp",
         /* Priority */      "essential bugout",
