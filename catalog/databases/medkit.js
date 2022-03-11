@@ -4,6 +4,24 @@ const medkit =
     // Medkit
     // ----------------------------------------
 
+    [   /* Title */         "First Aid Manual",
+        /* Description */   "ACEP, 100 different conditions.",
+        /* Image */         "ACEP-First-Aid-Manual-5th-Edition.webp",
+        /* Priority */      "essential",
+        /* URL */           "https://amzn.to/3J6iUQ7"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Medical Symptoms",
+        /* Description */   "A Visual-Guide",
+        /* Image */         "Medical-Symptoms-A-Visual-Guide.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3sYStWX"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Large Hard Case",
         /* Description */   "Monoprice",
         /* Image */         "Monoprice-Large-Hard-Case.webp",
