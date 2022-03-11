@@ -989,6 +989,7 @@ ul#toc {
 }
 
 #sort-tags button .icon {
+  min-width: 75px;
   color: #ff0000;
 }
 
