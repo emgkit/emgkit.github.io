@@ -34,7 +34,7 @@ const water =
     [   /* Title */         "Canteen 40oz",
         /* Description */   "Stainless Steel",
         /* Image */         "canteen-40oz.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "extra",
         /* URL */           "https://amzn.to/3vP10h4"
     ],
 
@@ -43,8 +43,17 @@ const water =
     [   /* Title */         "Canteen 27oz",
         /* Description */   "Stainless Steel",
         /* Image */         "canteen-27oz.webp",
-        /* Priority */      "extra",
+        /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/35Jlltm"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Water Bottle Carrier",
+        /* Description */   "5.11 Tactical, MOLLE. Fits 32oz Bottle and under.",
+        /* Image */         "5.11-H2O-Bottle-Carrier.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3CyS54K"
     ],
 
     // ----------------------------------------

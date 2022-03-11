@@ -184,6 +184,15 @@ const utilities =
 
     // ----------------------------------------
 
+    [   /* Title */         "Pocket Calendar",
+        /* Description */   "Weatherproof ",
+        /* Image */         "Weatherproof-Pocket-Calendar.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t1Sl9g"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Liquid Soap",
         /* Description */   "",
         /* Image */         "Dawn-Soap.webp",

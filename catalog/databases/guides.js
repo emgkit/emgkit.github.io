@@ -139,6 +139,15 @@ const guides =
 
     // ----------------------------------------
 
+    [   /* Title */         "Pocket Reference",
+        /* Description */   "All-purpose pocket-sized reference book.",
+        /* Image */         "Pocket-Ref.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t1GRTa"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Road Atlas",
         /* Description */   "Road Atlas \& National Park Guide",
         /* Image */         "Road-Atlas.webp",

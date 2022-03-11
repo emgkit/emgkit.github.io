@@ -4,26 +4,26 @@ const bags =
     // Bags
     // ----------------------------------------
 
-    [   /* Title */         "Duffel Bag 65L",
-        /* Description */   "Osprey",
-        /* Image */         "Osprey-Transporter-Duffel-Bag-65L.webp",
+    [   /* Title */         "Backpack 65L",
+        /* Description */   "Osprey Rook 65",
+        /* Image */         "Osprey-Rook-65.webp",
         /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3tO5CRO"
+        /* URL */           "https://amzn.to/3i0N5fH"
     ],
 
     // ----------------------------------------
 
-    [   /* Title */         "Duffel Bag 45L",
-        /* Description */   "Osprey",
-        /* Image */         "Osprey-Daylite-Duffel-45.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/35GS7LY"
+    [   /* Title */         "Backpack 60L",
+        /* Description */   "5.11 Tactical RUSH100, MOLLE",
+        /* Image */         "5.11-RUSH100.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3tU8pJv"
     ],
 
     // ----------------------------------------
 
     [   /* Title */         "Backpack 37L",
-        /* Description */   "5.11 RUSH24 2.0",
+        /* Description */   "5.11 Tactical RUSH24 2.0, MOLLE",
         /* Image */         "5.11-RUSH24-2.0-Backpack-37L.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3KyI7Ty"
@@ -40,6 +40,24 @@ const bags =
 
     // ----------------------------------------
 
+    [   /* Title */         "Duffel Bag 65L",
+        /* Description */   "Osprey Transporter, with Shoulder Straps.",
+        /* Image */         "Osprey-Transporter-Duffel-Bag-65L.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3tO5CRO"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Duffel Bag 45L",
+        /* Description */   "Osprey Daylite",
+        /* Image */         "Osprey-Daylite-Duffel-45.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/35GS7LY"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Dry Bag 20L",
         /* Description */   "Waterproof Bag",
         /* Image */         "dry-bag.webp",
@@ -50,7 +68,7 @@ const bags =
     // ----------------------------------------
 
     [   /* Title */         "Pocket Organizer",
-        /* Description */   "Maxpedition",
+        /* Description */   "Maxpedition, MOLLE",
         /* Image */         "Maxpedition-Pouch.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3KBLfOJ"

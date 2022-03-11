@@ -4,6 +4,15 @@ const electronics =
     // Electronics
     // ----------------------------------------
 
+    [   /* Title */         "Solar Panel Charger",
+        /* Description */   "With 10000mAh Power Bank. For USB Phones \& Tablets.",
+        /* Image */         "Solar-Panel-Charger.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3vXhLGX"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Batteries",
         /* Description */   "AA",
         /* Image */         "Energizer-AA-Batteries.webp",
@@ -76,6 +85,15 @@ const electronics =
 
     // ----------------------------------------
 
+    [   /* Title */         "Motorola T600 Walkie Talkies",
+        /* Description */   "4AA, FRS\/GMRS, IP67 Waterproof",
+        /* Image */         "Motorola-T600-Talkabout-Radio.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3CzlsUz"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Hand Crank Radio",
         /* Description */   "3 charging methods",
         /* Image */         "Hand-Crank-Radio.webp",
@@ -90,6 +108,15 @@ const electronics =
         /* Image */         "casio-watch.webp",
         /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3sWuiIM"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "3-in-1 USB Cable",
+        /* Description */   "Lightning, Type C, Micro USB",
+        /* Image */         "3-in-1-USB-Cable.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3KBgvxk"
     ],
 
     // ----------------------------------------
