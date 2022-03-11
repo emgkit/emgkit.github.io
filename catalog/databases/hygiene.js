@@ -22,6 +22,15 @@ const hygiene =
 
     // ----------------------------------------
 
+    [   /* Title */         "Soap Bar",
+        /* Description */   "Fragrance-Free",
+        /* Image */         "Soap-Bar-Fragrance-Free.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3J931Z6"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Toothbrush",
         /* Description */   "Oral Care",
         /* Image */         "toothbrush.webp",

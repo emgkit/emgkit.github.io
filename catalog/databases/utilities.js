@@ -43,7 +43,7 @@ const utilities =
     [   /* Title */         "Ferrocerium Rod",
         /* Description */   "Fire Starter. Caution: Sparks are extremely hot.",
         /* Image */         "Ferrocerium-Rod.webp",
-        /* Priority */      "extra",
+        /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3HZpI0s"
     ],
 
@@ -94,6 +94,15 @@ const utilities =
 
     // ----------------------------------------
 
+    [   /* Title */         "Fire Starter Tinder",
+        /* Description */   "Wax Infused Cotton Plugs, 50 count",
+        /* Image */         "Fire-Starter-Tinder.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3CxZnWo"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Highway Flare Kit",
         /* Description */   "6 30-minute flares and 1 high visibility safety vest.",
         /* Image */         "Flare-Kit.webp",
@@ -108,6 +117,15 @@ const utilities =
         /* Image */         "Fire-Extinguishing-Aerosol-Spray.webp",
         /* Priority */      "essential",
         /* URL */           "https://amzn.to/3t0H6O4"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Hand Warmers",
+        /* Description */   "Shake to activate",
+        /* Image */         "Hand-Warmers.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/365T8gh"
     ],
 
     // ----------------------------------------
@@ -169,7 +187,7 @@ const utilities =
     [   /* Title */         "Liquid Soap",
         /* Description */   "",
         /* Image */         "Dawn-Soap.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3sZUthR"
     ],
 
@@ -187,7 +205,7 @@ const utilities =
     [   /* Title */         "Trash Bags",
         /* Description */   "Small",
         /* Image */         "trash-bags-small.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3CyiAHC"
     ],
 ];

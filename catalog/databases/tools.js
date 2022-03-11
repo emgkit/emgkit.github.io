@@ -184,11 +184,20 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "550 Parcord",
+    [   /* Title */         "Parcord 550",
         /* Description */   "Mil-Spec Type III",
         /* Image */         "Paracord.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3pSMW2a"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Bank Line",
+        /* Description */   "All-purpose utility twine, 100% Nylon, \#36",
+        /* Image */         "Bank-Line-36.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3MF6jFM"
     ],
 
     // ----------------------------------------
