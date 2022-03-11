@@ -13,7 +13,7 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility;
-    background-color: #f6f7f8;
+    background-color: #f4f4f4;
 }
 
 body {
@@ -182,7 +182,7 @@ section:last-of-type {
 /* Logo */
 
 .navbar-brand {
-    margin: -0.6rem 0 0 0;
+    margin: -0.7rem 0 0 0;
     font-size: 2rem;
     font-family: 'Lora', serif;
     color: #ff0000;
@@ -259,7 +259,7 @@ section:last-of-type {
 @media screen and (max-width: 1199.98px) {
   .navbar-nav {
     flex-wrap: wrap;
-    width: 90% !important;
+    width: 85% !important;
     justify-content: right !important;
     align-content: center !important;
     margin-right: 0 !important;
@@ -331,7 +331,7 @@ section:last-of-type {
 
 @media screen and (min-width: 1400px) {
   .navbar-expand-lg .navbar-nav {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 }
 
@@ -972,6 +972,7 @@ ul#toc {
 }
 
 #sort-tags button {
+  min-width: 75px;
   border: 1px solid #f00;
   padding: 0.4rem 0.6rem;
   margin: 0.4rem 0.2rem;
@@ -980,16 +981,7 @@ ul#toc {
   font-size: 1rem;
 }
 
-/* If Width Larger than 480px */
-
-@media screen and (min-width: 481px) {
-  #sort-tags button {
-    min-width: 75px;
-  }
-}
-
 #sort-tags button .icon {
-  min-width: 75px;
   color: #ff0000;
 }
 
