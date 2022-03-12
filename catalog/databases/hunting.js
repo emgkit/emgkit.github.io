@@ -31,6 +31,15 @@ const hunting =
 
     // ----------------------------------------
 
+    [   /* Title */         "Mossberg 500",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "Mossberg-500-Hunting.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://en.wikipedia.org/wiki/Mossberg_500"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Crossbow",
         /* Description */   "Check your local laws before purchasing.",
         /* Image */         "Crossbow.webp",
