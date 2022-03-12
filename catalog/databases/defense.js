@@ -73,4 +73,40 @@ const defense =
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3sWPBde"
     ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Ballistic Armor Helmet",
+        /* Description */   "Full Protection from .44 magnum, .357 SIG, and 9mm rounds.",
+        /* Image */         "Ballistic-Armor-Helmet.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://ballisticarmorco.com/collections/armor/products/gen2"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Bump Helmet",
+        /* Description */   "Non-ballistic armor helmet.",
+        /* Image */         "Bump-Helmet.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://www.hardheadveterans.com/products/tactical-helmet-ate-bump"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Plate Carrier",
+        /* Description */   "5.11 Tactical TacTec",
+        /* Image */         "Plate-Carrier.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://www.511tactical.com/tac-tec-plate-carrier.html"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Ceramic Body Armor",
+        /* Description */   "Hercules, Set of 2 Level IV Plates for Carrier",
+        /* Image */         "Ceramic-Body-Armor.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://www.spartanarmorsystems.com/hercules-level-iv-ceramic-body-armor-set-of-two/"
+    ],
 ];
