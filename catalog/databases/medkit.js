@@ -139,6 +139,15 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "CAT Tourniquet",
+        /* Description */   "Stop blood flow in case of a traumatic wound.",
+        /* Image */         "CAT-Tourniquet.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3pQoYos"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "WoundSeal",
         /* Description */   "Stops Bleeding in seconds.",
         /* Image */         "WoundSeal.webp",
@@ -157,11 +166,11 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "CAT Tourniquet",
-        /* Description */   "Stop blood flow in case of a traumatic wound.",
-        /* Image */         "CAT-Tourniquet.webp",
-        /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3pQoYos"
+    [   /* Title */         "ARS Needle Decompression",
+        /* Description */   "For treatment of pneumothorax.",
+        /* Image */         "AR-Needle-Decompression.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://www.rescue-essentials.com/nar-ars-for-needle-decompression/"
     ],
 
     // ----------------------------------------
