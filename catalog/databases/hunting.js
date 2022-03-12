@@ -13,12 +13,21 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "US Survival AR-7 .22LR",
+    [   /* Title */         "Ruger Takedown 10/22",
         /* Description */   "Check your local laws and talk to your firearms dealer.",
-        /* Image */         "Survival-AR-7.webp",
+        /* Image */         "10-22-Takedown.webp",
         /* Priority */      "recommend bugout",
-        /* URL */           "https://en.wikipedia.org/wiki/ArmaLite_AR-7"
+        /* URL */           "https://en.wikipedia.org/wiki/Ruger_10/22"
     ],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "US Survival AR-7 .22 LR",
+    //    /* Description */   "Check your local laws and talk to your firearms dealer.",
+    //    /* Image */         "Survival-AR-7.webp",
+    //    /* Priority */      "recommend bugout",
+    //    /* URL */           "https://en.wikipedia.org/wiki/ArmaLite_AR-7"
+    //],
 
     // ----------------------------------------
 
