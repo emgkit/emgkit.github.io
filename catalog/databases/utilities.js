@@ -41,7 +41,7 @@ const utilities =
     // ----------------------------------------
 
     [   /* Title */         "Ferrocerium Rod",
-        /* Description */   "Fire Starter. Caution: Sparks are extremely hot.",
+        /* Description */   "Fire Starter. Caution: Sparks are 6,000°F.",
         /* Image */         "Ferrocerium-Rod.webp",
         /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3HZpI0s"
