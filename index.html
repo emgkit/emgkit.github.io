@@ -105,19 +105,35 @@
     <!-- Content -->
     <main id="layout-content" class="parallax-window" data-parallax="scroll" data-image-src="./assets/img/bg.jpg">
 
-        <!-- Catalog -->
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-12">
 
-                        <!-- Tag Sort-->
+                    <!-- Tag Sort-->
+                    <div class="col-sm-6">
+
                         <div id="sort-tags">
-                          <button onclick="viewAll()"><span class="icon" style="color: #ff0000;">&#9673;&#xFE0E;</span> All</button>
-                          <button onclick="viewEssential()"><span class="icon" style="color: #f7b900;">&#9733;&#xFE0E;</span> Essential</button>
-                          <button onclick="viewRecommended()"><span class="icon" style="color: #0070FF;">&#10004;&#xFE0E;</span> Recommended</button>
-                          <button onclick="viewBugout()"><span class="icon" style="color: #4CBB17;">&#9752;&#xFE0E;</span> Bugout</button>
+                          <button onclick="sortAll()"><span class="icon" style="color: #ff0000;">&#9673;&#xFE0E;</span> All</button>
+                          <button onclick="sortEssential()"><span class="icon" style="color: #f7b900;">&#9733;&#xFE0E;</span> Essential</button>
+                          <button onclick="sortRecommended()"><span class="icon" style="color: #0070FF;">&#10004;&#xFE0E;</span> Recommended</button>
+                          <button onclick="sortBugout()"><span class="icon" style="color: #4CBB17;">&#9752;&#xFE0E;</span> Bugout</button>
                         </div>
+
+                    </div>
+
+                    <!-- View -->
+                    <div class="col-sm-6">
+
+                        <div id="view">
+                          <button onclick="viewNormal()"><span class="icon" style="color: #ff0000;"></span>&#9645;&#xFE0E; Normal</button>
+                          <button onclick="viewCompact()"><span class="icon" style="color: #f7b900;"></span>&#8801;&#xFE0E; Compact</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
 
                         <!-- Catalog-->
                         <div id="catalog">
@@ -360,10 +376,81 @@
         });
     </script>
 
+    <!-- View Size -->
+    <script type="application/javascript">
+        // Normal
+        function viewNormal() {
+          var cat = document.getElementsByClassName("category");
+          for (var i = 0; i < cat.length; i++) {
+            cat[i].style.cssText = null;
+          }
+
+          var x = document.getElementsByClassName("item-container");
+          for (var i = 0; i < x.length; i++) {
+            // Item
+            x[i].style.cssText = null;
+
+             // Title
+            var title = document.getElementsByClassName("title");
+            title[i].style.cssText = null;
+
+            // Info
+            var info = document.getElementsByClassName("info");
+            info[i].style.cssText = null;
+
+            // Description
+            var description = document.getElementsByClassName("description");
+            description[i].style.cssText = null;
+
+            // Img Wrapper
+            var img_wrapper = document.getElementsByClassName("img-wrapper");
+            img_wrapper[i].style.cssText = null;
+
+            // Img
+            var img_wrapper_img = document.getElementsByClassName("img-wrapper")[i].getElementsByTagName('img')[0];
+            img_wrapper_img.style.cssText = null;
+          }
+        }
+
+        // Compact
+        function viewCompact() {
+          var cat = document.getElementsByClassName("category");
+          for (var i = 0; i < cat.length; i++) {
+            cat[i].style.cssText = "margin-bottom: 4.5rem !important;";
+          }
+
+          var items = document.getElementsByClassName("item-container");
+          for (var i = 0; i < items.length; i++) {
+            // Item
+            items[i].style.cssText = "height: 75px !important;";
+
+            // Title
+            var title = document.getElementsByClassName("title");
+            title[i].style.cssText = "height: fit-content !important; padding: 0 !important; font-size: 1.1rem !important; line-height: 1.2rem !important;";
+
+            // Info
+            var info = document.getElementsByClassName("info");
+            info[i].style.cssText = "display: flex !important; align-items: center !important; height: 100% !important;";
+
+            // Description
+            var description = document.getElementsByClassName("description");
+            description[i].style.cssText = "display: none !important; height: 0 !important;";
+
+            // Img Wrapper
+            var img_wrapper = document.getElementsByClassName("img-wrapper");
+            img_wrapper[i].style.cssText = "min-width: 100px !important; max-width: 100px !important; margin: 0 0.5rem 0 0 !important;";
+
+            // Img
+            var img_wrapper_img = document.getElementsByClassName("img-wrapper")[i].getElementsByTagName('img')[0];
+            img_wrapper_img.style.cssText = "max-width: 90px !important; max-height: 70px !important;";
+          }
+        }
+    </script>
+
     <!-- View/Hide Item by Tags -->
     <script type="application/javascript">
         // View Essential
-        function viewEssential() {
+        function sortEssential() {
           var x = document.getElementsByClassName("item-container");
           for (var i = 0; i < x.length; i++) {
             if (x[i].classList.contains("essential")) {
@@ -376,7 +463,7 @@
         }
 
         // View Recommended
-        function viewRecommended() {
+        function sortRecommended() {
           var x = document.getElementsByClassName("item-container");
           for (var i = 0; i < x.length; i++) {
             //var s = x[i].style.cssText;
@@ -390,7 +477,7 @@
         }
 
         // View All
-        function viewBugout() {
+        function sortBugout() {
           // Hide Extra
           var x = document.getElementsByClassName("item-container");
           for (var i = 0; i < x.length; i++) {
@@ -405,7 +492,7 @@
         }
 
         // View All
-        function viewAll() {
+        function sortAll() {
           // Hide Extra
           var x = document.getElementsByClassName("item-container");
           for (var i = 0; i < x.length; i++) {

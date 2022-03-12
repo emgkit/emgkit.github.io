@@ -732,32 +732,39 @@ ul#toc {
     /* IE6-9 */
 }
 
-/* --- Tags --- */
+/* --- View and Sort Tags --- */
 
 /* If Width Smaller or Equal to 480px */
-
 @media screen and (max-width: 480px) {
-  #sort-tags {
+  #view {
     margin: 0 0 2rem 0;
+  }
+  #sort-tags {
+    margin: 0 0 0.7rem 0;
   }
 }
 
-/* Medium devices (tablets, less than 992px) */
-
-@media screen and (max-width: 991.98px) {
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+  #view,
   #sort-tags {
     text-align: center;
   }
 }
 
 /* If Width Larger than 480px */
-
 @media screen and (min-width: 481px) {
+  #view {
+    float: right;
+  }
+
+  #view,
   #sort-tags {
     margin: 0 0 1rem 0;
   }
 }
 
+#view button,
 #sort-tags button {
   min-width: 75px;
   border: 1px solid #f00;
@@ -766,16 +773,15 @@ ul#toc {
   background-color: #fff;
   box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);
   font-size: 1rem;
+  color: #000;
 }
 
-#sort-tags button .icon {
-  color: #ff0000;
-}
-
+#view button:hover,
 #sort-tags button:hover {
   background-color: #fbfbfb;
 }
 
+#view button:focus,
 #sort-tags button:focus {
   box-shadow: none !important;
 }
