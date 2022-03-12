@@ -1468,16 +1468,34 @@ background-color: #FF6600
 
 /* Printable */
 @media print {
+  #layout-header {
+    position: relative !important;
+    min-height: 0 !important;
+  }
+
+  #layout-content {
+    margin-top: 4rem !important;
+  }
+
+  .navbar {
+    min-height: 0;
+  }
+  .navbar-brand {
+    font-size: 1.7rem !important;
+  }
   .navbar-nav {
     display: none !important;
   }
+  .navbar-toggler-container {
+    display: none;
+  }
 
-  #sort-tags {
+  #view, #sort-tags {
     display: none !important;
   }
 
   #catalog h2 {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     text-align: left !important;
     color: #000 !important;
   }
@@ -1490,13 +1508,16 @@ background-color: #FF6600
     justify-content: left !important;
     row-gap: 0 !important;
     column-gap: 0 !important;
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
   #catalog .item-container {
     flex-basis: 33% !important;
+    height: 30px !important;
+    padding: 0.5rem 0 !important;
     box-shadow: none !important;
-    height: 50px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
   }
 
   #catalog .item-container .symbols {
@@ -1504,7 +1525,7 @@ background-color: #FF6600
   }
 
   #catalog .title {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     font-weight: normal !important;
     color: #000 !important;
   }
@@ -1514,13 +1535,13 @@ background-color: #FF6600
   }
 
   #catalog .img-wrapper {
-    min-width: 85px !important;
-    max-width: 85px !important;
+    min-width: 60px !important;
+    max-width: 60px !important;
   }
 
   #catalog .img-wrapper img {
-    max-width: 50px !important;
-    max-height: 50px !important;
+    max-width: 40px !important;
+    max-height: 38px !important;
   }
 
   #layout-footer {
