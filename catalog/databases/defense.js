@@ -4,11 +4,20 @@ const defense =
     // Defense
     // ----------------------------------------
 
-    [   /* Title */         "Razor Wire",
-        /* Description */   "Home Protection",
-        /* Image */         "razor-wire.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3sWPBde"
+    [   /* Title */         "Mossberg 500",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "Mossberg-500.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://en.wikipedia.org/wiki/Mossberg_500"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Stun Gun",
+        /* Description */   "Check your local laws before purchasing.",
+        /* Image */         "Stun-Gun.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3tU0Hib"
     ],
 
     // ----------------------------------------
@@ -36,5 +45,14 @@ const defense =
         /* Image */         "Bear-Spray.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3sZJjtq"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Razor Wire",
+        /* Description */   "Home Protection",
+        /* Image */         "razor-wire.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3sWPBde"
     ],
 ];

@@ -4,11 +4,56 @@ const hunting =
     // Hunting
     // ----------------------------------------
 
-    [   /* Title */         "Cooler",
-        /* Description */   "Igloo 25qt",
-        /* Image */         "cooler-25qt.webp",
+    [   /* Title */         "US Survival AR-7",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "Survival-AR-7.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://en.wikipedia.org/wiki/ArmaLite_AR-7"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Crossbow",
+        /* Description */   "Check your local laws before purchasing.",
+        /* Image */         "Crossbow.webp",
         /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3w4o1wJ"
+        /* URL */           "https://amzn.to/3MMARFK"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Air Rifle",
+        /* Description */   "Check your local laws before purchasing.",
+        /* Image */         "Air-Rifle.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t5bkQ5"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Slingshot",
+        /* Description */   "Axiom Ocularis",
+        /* Image */         "Slingshot.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3I6EjqV"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Air Gun/Slingshot Ammo",
+        /* Description */   "Pellets, .22 Caliber, 200 count",
+        /* Image */         "slingshot-ammo.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3CLXFRv"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Snare Wire",
+        /* Description */   "Small Game Trapping",
+        /* Image */         "Snare-Wire.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3qhSmEn"
     ],
 
     // ----------------------------------------
@@ -76,28 +121,10 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "Slingshot",
-        /* Description */   "Axiom Ocularis",
-        /* Image */         "Slingshot.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3I6EjqV"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Slingshot Ammo",
-        /* Description */   "Pointed Airgun Pellets, .22 Caliber, 16 Grains, 200 count",
-        /* Image */         "slingshot-ammo.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3CLXFRv"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Snare Wire",
-        /* Description */   "Small Game Trapping",
-        /* Image */         "Snare-Wire.webp",
-        /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3qhSmEn"
+    [   /* Title */         "Cooler",
+        /* Description */   "Igloo 25qt",
+        /* Image */         "cooler-25qt.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3w4o1wJ"
     ],
 ];
