@@ -4,11 +4,29 @@ const defense =
     // Defense
     // ----------------------------------------
 
+    [   /* Title */         "S&W M&P15 .223",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "Smith-&-Wesson-M&P15.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://en.wikipedia.org/wiki/Smith_%26_Wesson_M%26P15"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Mossberg 500",
         /* Description */   "Check your local laws and talk to your firearms dealer.",
         /* Image */         "Mossberg-500.webp",
         /* Priority */      "recommend",
         /* URL */           "https://en.wikipedia.org/wiki/Mossberg_500"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "SIG P320 9mm",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "SIG-P320.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://en.wikipedia.org/wiki/SIG_Sauer_P320"
     ],
 
     // ----------------------------------------

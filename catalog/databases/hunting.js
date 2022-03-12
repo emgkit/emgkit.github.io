@@ -4,7 +4,16 @@ const hunting =
     // Hunting
     // ----------------------------------------
 
-    [   /* Title */         "US Survival AR-7",
+    [   /* Title */         "Hunting Rifle .308",
+        /* Description */   "Check your local laws and talk to your firearms dealer.",
+        /* Image */         "Hunting-Rifle-308.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://en.wikipedia.org/wiki/.308_Winchester"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "US Survival AR-7 .22LR",
         /* Description */   "Check your local laws and talk to your firearms dealer.",
         /* Image */         "Survival-AR-7.webp",
         /* Priority */      "recommend bugout",
@@ -22,7 +31,7 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "Air Rifle",
+    [   /* Title */         "Air Rifle .22",
         /* Description */   "Check your local laws before purchasing.",
         /* Image */         "Air-Rifle.webp",
         /* Priority */      "extra",
