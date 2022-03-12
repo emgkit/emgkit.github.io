@@ -76,7 +76,7 @@ const defense =
 
     // ----------------------------------------
 
-    [   /* Title */         "Ballistic Armor Helmet",
+    [   /* Title */         "Ballistic Helmet",
         /* Description */   "Full Protection from .44 magnum, .357 SIG, and 9mm rounds.",
         /* Image */         "Ballistic-Armor-Helmet.webp",
         /* Priority */      "extra",
