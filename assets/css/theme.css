@@ -798,6 +798,7 @@ ul#toc {
     padding: 0.8rem;
     height: 115px;
     background-color: #fff;
+    overflow: hidden;
 }
 
 #catalog .item-container:hover {
