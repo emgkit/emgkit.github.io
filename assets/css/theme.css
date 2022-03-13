@@ -894,7 +894,7 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 150px;
+        max-width: 100px;
         max-height: 100px;
     }
     #catalog .title {
@@ -923,7 +923,7 @@ ul#toc {
         /*width: 100%;*/
         width: 100%;
         outline: none;
-        /*border-bottom: 1px solid #ccc;*/
+        border-bottom: 1px solid #ccc;
         /*box-shadow: none !important;*/
     }
     #catalog .img-wrapper {
@@ -932,7 +932,7 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 150px;
+        max-width: 100px;
         max-height: 100px;
     }
     #catalog .title {
