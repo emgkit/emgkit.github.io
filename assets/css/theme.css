@@ -873,7 +873,7 @@ ul#toc {
 }
 
 
-/* If Height Smaller than 576px */
+/* If Width Smaller or Equal to 576px */
 
 @media screen and (max-width: 575.98px) {
     .catalog-section {
@@ -923,8 +923,8 @@ ul#toc {
         /*width: 100%;*/
         flex-basis: 100%;
         outline: none;
-        border-bottom: 1px solid #ccc;
-        box-shadow: none !important;
+        /*border-bottom: 1px solid #ccc;*/
+        /*box-shadow: none !important;*/
     }
     #catalog .img-wrapper {
         min-width: 150px;
