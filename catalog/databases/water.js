@@ -40,30 +40,48 @@ const water =
 
     // ----------------------------------------
 
-    [   /* Title */         "Canteen 64oz",
-        /* Description */   "Stainless Steel",
-        /* Image */         "canteen-64oz.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3KojBoe"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Canteen 40oz",
-        /* Description */   "Stainless Steel",
+    [   /* Title */         "Canteen",
+        /* Description */   "Stainless Steel, Non-Insulated",
         /* Image */         "canteen-40oz.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3vP10h4"
+        /* Priority */      "essential",
+        /* URL */           "https://amzn.to/3q49Nb9"
     ],
 
     // ----------------------------------------
 
-    [   /* Title */         "Canteen 27oz",
-        /* Description */   "Stainless Steel",
-        /* Image */         "canteen-27oz.webp",
-        /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/35Jlltm"
+    [   /* Title */         "Water Bottle Insulated",
+        /* Description */   "Warning: Insulated can explode if heated over fire.",
+        /* Image */         "Canteen-Insulated.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3q2Rm6J"
     ],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "Canteen 64oz",
+    //    /* Description */   "Stainless Steel",
+    //    /* Image */         "canteen-64oz.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3KojBoe"
+    //],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "Canteen 40oz",
+    //    /* Description */   "Stainless Steel",
+    //    /* Image */         "canteen-40oz.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3vP10h4"
+    //],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "Canteen 27oz",
+    //    /* Description */   "Stainless Steel",
+    //    /* Image */         "canteen-27oz.webp",
+    //    /* Priority */      "essential bugout",
+    //    /* URL */           "https://amzn.to/35Jlltm"
+    //],
 
     // ----------------------------------------
 
