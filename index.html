@@ -17,7 +17,7 @@
     <meta name="robots" content="" />
 
     <meta property="og:site_name" content="Emergency Supplies" />
-    <meta property="og:image" content="https://emgkit.github.io/assets/img/emgkit.jpg" />
+    <meta property="og:image" content="https://emgkit.github.io/assets/img/emgkit.webp" />
     <meta property="og:url" content="https://emgkit.github.io" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Equipment for Emergency Preparedness" />
@@ -331,7 +331,7 @@
                         var url = categories[c][1][a][i][4]; // website link
 
                         items_html +=
-                            '<a href=\"' + url + '\" target=\"_blank\" class=\"item-container ' + priority + '\">' +
+                            '<a href=\"' + url + '\" target=\"_blank\" class=\"item ' + priority + '\">' +
                                 '<div class=\"symbols\">' +
                                   '<div class=\"symbol-essential\"></div>' +
                                   '<div class=\"symbol-bugout\"></div>' +
@@ -357,7 +357,7 @@
                 items_html = ""; // clear
 
                 // Generate Item Symbols
-                const item_html = document.getElementsByClassName("item-container");
+                const item_html = document.getElementsByClassName("item");
                 for (var i = 0; i < item_html.length; i++) {
                   // Essential Shamrock
                   if (item_html[i].classList.contains("essential") && item_html[i].classList.contains("bugout")) {
@@ -385,7 +385,7 @@
             cat[i].style.cssText = null;
           }
 
-          var x = document.getElementsByClassName("item-container");
+          var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             // Item
             x[i].style.cssText = null;
@@ -419,14 +419,14 @@
             cat[i].style.cssText = "margin-bottom: 4.5rem !important;";
           }
 
-          var items = document.getElementsByClassName("item-container");
+          var items = document.getElementsByClassName("item");
           for (var i = 0; i < items.length; i++) {
             // Item
-            items[i].style.cssText = "height: 75px !important;";
+            items[i].style.cssText = "height: 70px !important;";
 
             // Title
             var title = document.getElementsByClassName("title");
-            title[i].style.cssText = "height: fit-content !important; padding: 0 !important; font-size: 1.1rem !important; line-height: 1.2rem !important;";
+            title[i].style.cssText = "height: fit-content !important; padding: 0 !important; font-size: 1.1rem !important; line-height: 1.1rem !important;";
 
             // Info
             var info = document.getElementsByClassName("info");
@@ -438,11 +438,11 @@
 
             // Img Wrapper
             var img_wrapper = document.getElementsByClassName("img-wrapper");
-            img_wrapper[i].style.cssText = "min-width: 100px !important; max-width: 100px !important; margin: 0 0.5rem 0 0 !important;";
+            img_wrapper[i].style.cssText = "min-width: 90px !important; max-width: 90px !important; margin: 0 0.5rem 0 0 !important;";
 
             // Img
             var img_wrapper_img = document.getElementsByClassName("img-wrapper")[i].getElementsByTagName('img')[0];
-            img_wrapper_img.style.cssText = "max-width: 90px !important; max-height: 70px !important;";
+            img_wrapper_img.style.cssText = "max-width: 70px !important; max-height: 65px !important;";
           }
         }
     </script>
@@ -451,7 +451,7 @@
     <script type="application/javascript">
         // View Essential
         function sortEssential() {
-          var x = document.getElementsByClassName("item-container");
+          var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             if (x[i].classList.contains("essential")) {
               x[i].style.setProperty('display', 'block', '');
@@ -464,7 +464,7 @@
 
         // View Recommended
         function sortRecommended() {
-          var x = document.getElementsByClassName("item-container");
+          var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             //var s = x[i].style.cssText;
             if (x[i].classList.contains("essential") || x[i].classList.contains("recommend")) {
@@ -479,7 +479,7 @@
         // View All
         function sortBugout() {
           // Hide Extra
-          var x = document.getElementsByClassName("item-container");
+          var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             //var s = x[i].style.cssText;
             if (x[i].classList.contains("bugout")) {
@@ -494,7 +494,7 @@
         // View All
         function sortAll() {
           // Hide Extra
-          var x = document.getElementsByClassName("item-container");
+          var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             x[i].style.setProperty('display', 'block', '');
           }
