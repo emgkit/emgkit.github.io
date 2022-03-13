@@ -705,6 +705,7 @@ ul#toc {
         justify-content: center;
         row-gap: 0;
         column-gap: 0;
+        margin-bottom: 4rem !important;
     }
 }
 
