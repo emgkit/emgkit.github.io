@@ -34,7 +34,7 @@ const utilities =
     [   /* Title */         "Candles",
         /* Description */   "Each candle burns for 9 hours.",
         /* Image */         "Candles-9-Hour.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "essential",
         /* URL */           "https://amzn.to/3sX2P9F"
     ],
 
