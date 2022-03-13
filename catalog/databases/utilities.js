@@ -158,7 +158,7 @@ const utilities =
     // ----------------------------------------
 
     [   /* Title */         "Whistles",
-        /* Description */   "Ideal for Self-Defense and Emergency.",
+        /* Description */   "As a signal for being found and rescued.",
         /* Image */         "Emergency-Whistle.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3J2oaEi"
