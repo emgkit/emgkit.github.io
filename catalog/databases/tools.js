@@ -211,6 +211,15 @@ const tools =
 
     // ----------------------------------------
 
+    [   /* Title */         "Zip Ties",
+        /* Description */   "Multi-Purpose Cable Ties",
+        /* Image */         "Zip-Ties.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3q1LfzA"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Nails",
         /* Description */   "Wood, Stainless Steel",
         /* Image */         "nails-2-inch.webp",
