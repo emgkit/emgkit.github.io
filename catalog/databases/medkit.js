@@ -346,7 +346,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "Immodium A-D",
+    [   /* Title */         "Imodium A-D",
         /* Description */   "Anti-Diarrheal Medicine",
         /* Image */         "Imodium.webp",
         /* Priority */      "extra bugout",

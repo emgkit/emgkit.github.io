@@ -647,6 +647,7 @@ ul#toc {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
+    width: 100%;
     margin-bottom: 5.5rem !important;
     padding: 0;
 }
@@ -826,6 +827,7 @@ ul#toc {
 
 #catalog .item:hover {
     outline: 1px solid #ff0000;
+    border-bottom: 1px solid transparent;
 }
 
 #catalog .img-wrapper {
@@ -884,6 +886,7 @@ ul#toc {
         /*width: calc(25% - 1.9rem);*/
         /*width: 100%;*/
         width: 100%;
+        margin-bottom: 1px;
         outline: none;
         border-bottom: 1px solid #ccc;
         box-shadow: none !important;
@@ -922,6 +925,7 @@ ul#toc {
         /*width: calc(25% - 1.9rem);*/
         /*width: 100%;*/
         width: 100%;
+        margin-bottom: 1px;
         outline: none;
         border-bottom: 1px solid #ccc;
         /*box-shadow: none !important;*/

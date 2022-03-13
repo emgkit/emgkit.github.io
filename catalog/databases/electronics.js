@@ -85,6 +85,15 @@ const electronics =
 
     // ----------------------------------------
 
+    [   /* Title */         "Ham Radio",
+        /* Description */   "BAOFENG BF-F8HP, Note: Requires FCC license to broadcast.",
+        /* Image */         "Ham-Radio.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3tSQcMd"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Motorola T600 Walkie Talkies",
         /* Description */   "4AA, FRS\/GMRS, IP67 Waterproof",
         /* Image */         "Motorola-T600-Talkabout-Radio.webp",

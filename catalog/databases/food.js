@@ -177,8 +177,17 @@ const food =
     [   /* Title */         "Freeze Dried Food",
         /* Description */   "",
         /* Image */         "Freeze-Dried-Food.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "extra",
         /* URL */           "https://amzn.to/3tSkM8P"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Survival Tabs",
+        /* Description */   "15-Day Emergency Food Ration",
+        /* Image */         "Survival-Tabs.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t6QEYb"
     ],
 
     // ----------------------------------------
