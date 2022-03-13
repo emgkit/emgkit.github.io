@@ -1159,7 +1159,7 @@ ul#toc {
 }
 
 .footer-share .resp-sharing-button__link {
-    margin: 0 0.45rem;
+    margin: 0 0.45rem 0.8rem 0.45rem;
 }
 
 
@@ -1167,7 +1167,7 @@ ul#toc {
 
 @media screen and (max-width: 1199.98px) {
     .footer-share {
-        margin: 0 0 2rem 0;
+        margin: 0 0 1rem 0;
     }
 }
 
@@ -1178,15 +1178,22 @@ ul#toc {
     font-size: 1rem;
 }
 
-
 /* If Width Smaller or Equal to 1199px */
-
 @media screen and (max-width: 1199.98px) {
     .copyright {
         margin: 0 0 2rem 0;
         padding: 0 1rem;
         text-align: center;
     }
+}
+
+/* If Width Larger than 1199px */
+@media screen and (min-width: 1200px) {
+  .copyright {
+      display: flex;
+      align-items: center;
+      height: 100%;
+  }
 }
 
 
@@ -1196,12 +1203,14 @@ ul#toc {
     font-size: 1.2rem;
 }
 
-
 /* If Width Larger than 1199px */
-
 @media screen and (min-width: 1200px) {
     .back-to-top {
+        display: flex;
+        align-items: center;
+        justify-content: right;
         text-align: right;
+        height: 100%;
     }
 }
 
