@@ -43,7 +43,7 @@ const food =
     [   /* Title */         "Stanley 2 Bowl Cook Set",
         /* Description */   "Stainless Steel, 20oz",
         /* Image */         "2-Bowl-Cook-Set.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3CCcVQt"
     ],
 
