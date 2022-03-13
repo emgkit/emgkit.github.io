@@ -130,6 +130,24 @@ const electronics =
 
     // ----------------------------------------
 
+    [   /* Title */         "Kindle",
+        /* Description */   "For emergency information and guides.",
+        /* Image */         "Kindle.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3q0zadM"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Flash Drive",
+        /* Description */   "With Keychain Hole. For important personal documents.",
+        /* Image */         "Flash-Drive.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3q0WwAl"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "3-in-1 USB Cable",
         /* Description */   "Lightning, Type C, Micro USB",
         /* Image */         "3-in-1-USB-Cable.webp",
