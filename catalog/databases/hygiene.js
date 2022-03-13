@@ -53,7 +53,7 @@ const hygiene =
         /* Description */   "Oral Care Antiseptic",
         /* Image */         "mouth-wash.webp",
         /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3hXjgNa"
+        /* URL */           "https://amzn.to/3KDYsX9"
     ],
 
     // ----------------------------------------

@@ -22,6 +22,24 @@ const water =
 
     // ----------------------------------------
 
+    [   /* Title */         "Hydration Pack",
+        /* Description */   "CamelBak, Mil-Spec, MOLLE",
+        /* Image */         "Hydration-Pack.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t3mMMe"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Reservoir",
+        /* Description */   "CamelBak, Mil-Spec",
+        /* Image */         "Reservoir.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3I9aKoW"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Canteen 64oz",
         /* Description */   "Stainless Steel",
         /* Image */         "canteen-64oz.webp",
@@ -63,6 +81,15 @@ const water =
         /* Image */         "bottle-hanger.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://www.selfrelianceoutfitters.com/products/bottle-hanger"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Professional Water Filtration",
+        /* Description */   "NSF Certified Drinking Water Systems",
+        /* Image */         "NSF-Certified-Drinking-Water-Systems.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://info.nsf.org/Certified/DWTU/"
     ],
 
     // ----------------------------------------

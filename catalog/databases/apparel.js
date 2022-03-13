@@ -85,20 +85,20 @@ const apparel =
 
     // ----------------------------------------
 
-    [   /* Title */         "Insulated Gloves",
-        /* Description */   "Protection from Cold",
-        /* Image */         "Insulated-Gloves.webp",
-        /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3vUVadW"
-    ],
-
-    // ----------------------------------------
-
     [   /* Title */         "Thermal Underwear",
         /* Description */   "Note: May run small. Size up.",
         /* Image */         "Thermal-Underwear.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3MDOgzP"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Insulated Gloves",
+        /* Description */   "Protection from Cold",
+        /* Image */         "Insulated-Gloves.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3vUVadW"
     ],
 
     // ----------------------------------------
@@ -117,6 +117,15 @@ const apparel =
         /* Image */         "wool-socks.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3t3lT6f"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Boots",
+        /* Description */   "Outdoor/Hiking/Tactical",
+        /* Image */         "Boots.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/36ccQXK"
     ],
 
 ];
