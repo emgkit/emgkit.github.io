@@ -22,11 +22,20 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "ESEE-5",
-        /* Description */   "5.25in Blade, Fixed Blade, 1095 Carbon Steel",
-        /* Image */         "5.25in-ESEE-5.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3tL8GOH"
+    //[   /* Title */         "ESEE-5",
+    //    /* Description */   "5.25in Blade, Fixed Blade, 1095 Carbon Steel",
+    //    /* Image */         "5.25in-ESEE-5.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3tL8GOH"
+    //],
+
+    // ----------------------------------------
+
+    [   /* Title */         "KA-BAR Becker BK2",
+        /* Description */   "5.25in Blade, Fixed Blade, 1095 Cro-Van Carbon Steel",
+        /* Image */         "BK2.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3MJVUZn"
     ],
 
     // ----------------------------------------
