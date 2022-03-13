@@ -301,6 +301,15 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "Hand-Sanitizer",
+        /* Description */   "Kills most common germs that may cause illness.",
+        /* Image */         "Hand-Sanitizer.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3ia5PJz"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Saline Nasal Spray",
         /* Description */   "3oz",
         /* Image */         "saline-nasal-spray.webp",

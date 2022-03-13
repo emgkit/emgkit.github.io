@@ -202,6 +202,15 @@ const utilities =
 
     // ----------------------------------------
 
+    [   /* Title */         "Scour Pads",
+        /* Description */   "Cleaning, Non-Scratch",
+        /* Image */         "Scour-Pads.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3t6MUFV"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Trash Bags",
         /* Description */   "Large",
         /* Image */         "trash-bags-large.webp",

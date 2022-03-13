@@ -76,11 +76,20 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "Snare Wire",
+    //[   /* Title */         "Snare Wire",
+    //    /* Description */   "Small Game Trapping",
+    //    /* Image */         "Snare-Wire.webp",
+    //    /* Priority */      "essential bugout",
+    //    /* URL */           "https://amzn.to/3qhSmEn"
+    //],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Snares",
         /* Description */   "Small Game Trapping",
-        /* Image */         "Snare-Wire.webp",
+        /* Image */         "Snares.webp",
         /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3qhSmEn"
+        /* URL */           "https://www.sportsmansguide.com/productlist/hunting?k=Snare&d=115"
     ],
 
     // ----------------------------------------
