@@ -43,7 +43,7 @@ const water =
     [   /* Title */         "Canteen",
         /* Description */   "Stainless Steel, Non-Insulated",
         /* Image */         "canteen-40oz.webp",
-        /* Priority */      "essential",
+        /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3q49Nb9"
     ],
 
