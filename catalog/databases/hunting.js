@@ -13,7 +13,7 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "Ruger Takedown 10/22",
+    [   /* Title */         "Ruger 10/22 Takedown",
         /* Description */   "Check your local laws and talk to your firearms dealer.",
         /* Image */         "10-22-Takedown.webp",
         /* Priority */      "recommend bugout",
