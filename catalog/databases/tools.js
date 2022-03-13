@@ -112,12 +112,12 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "Hack Saw",
-        /* Description */   "For cutting metal and plastic.",
-        /* Image */         "Hacksaw.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3sYhZvp"
-    ],
+    //[   /* Title */         "Hack Saw",
+    //    /* Description */   "For cutting metal and plastic.",
+    //    /* Image */         "Hacksaw.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3sYhZvp"
+    //],
 
     // ----------------------------------------
 
