@@ -52,7 +52,7 @@ const bags =
     [   /* Title */         "Duffel Bag 65L",
         /* Description */   "Osprey Transporter, with Shoulder Straps.",
         /* Image */         "Osprey-Transporter-Duffel-Bag-65L.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "essential",
         /* URL */           "https://amzn.to/3tO5CRO"
     ],
 
