@@ -130,8 +130,8 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "E-Tool Shovel",
-        /* Description */   "Ames USGI",
+    [   /* Title */         "E-Tool",
+        /* Description */   "USGI Ames Entrenching Shovel",
         /* Image */         "Ames-E-Tool.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3Ky6XD7"
@@ -140,7 +140,7 @@ const tools =
     // ----------------------------------------
 
     [   /* Title */         "E-Tool Pouch",
-        /* Description */   "",
+        /* Description */   "MOLLE compatible",
         /* Image */         "USGI-E-Tool-Case.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3pSxanW"
