@@ -827,7 +827,7 @@ ul#toc {
 
 #catalog .item:hover {
     outline: 1px solid #ff0000;
-    border-bottom: 1px solid transparent;
+    border-bottom: none;
 }
 
 #catalog .img-wrapper {
@@ -891,6 +891,10 @@ ul#toc {
         border-bottom: 1px solid #ccc;
         box-shadow: none !important;
     }
+    #catalog .item:hover {
+        outline: 1px solid #ff0000;
+        border-bottom: 1px solid transparent;
+    }
     #catalog .img-wrapper {
         min-width: 150px;
         max-width: 150px;
@@ -930,6 +934,10 @@ ul#toc {
         border-bottom: 1px solid #ccc;
         /*box-shadow: none !important;*/
     }
+    #catalog .item:hover {
+        outline: 1px solid #ff0000;
+        border-bottom: 1px solid transparent;
+    }
     #catalog .img-wrapper {
         min-width: 150px;
         max-width: 150px;
@@ -967,6 +975,9 @@ ul#toc {
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
+    }
+    #catalog .item:hover {
+        border-bottom: none;
     }
     #catalog .img-wrapper {
         min-width: 100px;
