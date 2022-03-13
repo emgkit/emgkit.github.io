@@ -49,12 +49,12 @@ const defense =
 
     // ----------------------------------------
 
-    [   /* Title */         "Pepper Spray",
-        /* Description */   "Mace PepperGuard Police Model",
-        /* Image */         "Mace-PepperGuard-Police-Model.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/34AXWtO"
-    ],
+    //[   /* Title */         "Pepper Spray",
+    //    /* Description */   "Mace PepperGuard Police Model",
+    //    /* Image */         "Mace-PepperGuard-Police-Model.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/34AXWtO"
+    //],
 
     // ----------------------------------------
 
