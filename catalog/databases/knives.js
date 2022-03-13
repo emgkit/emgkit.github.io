@@ -4,12 +4,12 @@ const knives =
     // Knives
     // ----------------------------------------
 
-    [   /* Title */         "Ontario RAT-7",
-        /* Description */   "7in Blade, Fixed Blade, 1095 Carbon Steel",
-        /* Image */         "7in-Ontario-RAT-7.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3JcRwji"
-    ],
+    //[   /* Title */         "Ontario RAT-7",
+    //    /* Description */   "7in Blade, Fixed Blade, 1095 Carbon Steel",
+    //    /* Image */         "7in-Ontario-RAT-7.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3JcRwji"
+    //],
 
     // ----------------------------------------
 
@@ -40,12 +40,12 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "TOPS BOB Fieldcraft",
-        /* Description */   "4.625in Blade, Fixed Blade, 1095 Carbon Steel",
-        /* Image */         "4.625in-TOPS-Knives-BOB-Fieldcraft.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3vWntJ4"
-    ],
+    //[   /* Title */         "TOPS BOB Fieldcraft",
+    //    /* Description */   "4.625in Blade, Fixed Blade, 1095 Carbon Steel",
+    //    /* Image */         "4.625in-TOPS-Knives-BOB-Fieldcraft.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3vWntJ4"
+    //],
 
     // ----------------------------------------
 
@@ -67,12 +67,12 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "Morakniv Craftline Pro S",
-        /* Description */   "3.6in Blade, Fixed Blade, Stainless Steel",
-        /* Image */         "3.6in-Morakniv-Craftline-Pro-S-Stainless-Steel-Knife.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3KvbupU"
-    ],
+    //[   /* Title */         "Morakniv Craftline Pro S",
+    //    /* Description */   "3.6in Blade, Fixed Blade, Stainless Steel",
+    //    /* Image */         "3.6in-Morakniv-Craftline-Pro-S-Stainless-Steel-Knife.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3KvbupU"
+    //],
 
     // ----------------------------------------
 
@@ -94,12 +94,12 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "Buck 112",
-        /* Description */   "3in Blade, Folding, 420 Stainless Steel",
-        /* Image */         "Buck-112.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3Cu68IJ"
-    ],
+    //[   /* Title */         "Buck 112",
+    //    /* Description */   "3in Blade, Folding, 420 Stainless Steel",
+    //    /* Image */         "Buck-112.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3Cu68IJ"
+    //],
 
     // ----------------------------------------
 
