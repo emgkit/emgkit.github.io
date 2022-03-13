@@ -883,7 +883,7 @@ ul#toc {
     #catalog .item {
         /*width: calc(25% - 1.9rem);*/
         /*width: 100%;*/
-        flex-basis: 100%;
+        width: 100%;
         outline: none;
         border-bottom: 1px solid #ccc;
         box-shadow: none !important;
@@ -921,7 +921,7 @@ ul#toc {
     #catalog .item {
         /*width: calc(25% - 1.9rem);*/
         /*width: 100%;*/
-        flex-basis: 100%;
+        width: 100%;
         outline: none;
         /*border-bottom: 1px solid #ccc;*/
         /*box-shadow: none !important;*/
@@ -957,9 +957,9 @@ ul#toc {
         justify-content: center;
     }
     #catalog .item {
-        /*width: calc(25% - 1.9rem);*/
         /*wwidth: 357px;*/
-        flex-basis: calc(50% - 8px);
+        /*flex-basis: calc(50% - 8px);*/
+        width: 360px;
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
@@ -997,7 +997,8 @@ ul#toc {
     #catalog .item {
         /*width: calc(25% - 1.9rem);*/
         /*width: 305px;*/
-        flex-basis: calc(33.3% - 13px);
+        /*flex-basis: calc(33.3% - 13px);*/
+        width: 307px;
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
@@ -1034,8 +1035,8 @@ ul#toc {
     }
     #catalog .item {
         /*width: calc(25% - 1.9rem);*/
-        /*width: 375px;*/
-        flex-basis: calc(33.3% - 13px);
+        /*flex-basis: calc(33.3% - 13px);*/
+        width: 376.5px;
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
@@ -1073,7 +1074,8 @@ ul#toc {
     #catalog .item {
         /*width: calc(25% - 1.2rem);*/
         /*width: 325px;*/
-        flex-basis: calc(25% - 15px);
+        /*flex-basis: calc(25% - 15px);*/
+        width: 327.5px;
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
