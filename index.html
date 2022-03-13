@@ -395,10 +395,11 @@
             cat[i].style.cssText = null;
           }
 
-          var x = document.getElementsByClassName("item");
-          for (var i = 0; i < x.length; i++) {
+          var items = document.getElementsByClassName("item");
+          for (var i = 0; i < items.length; i++) {
             // Item
-            x[i].style.cssText = null;
+            //items[i].style.cssText = null;
+            items[i].style.height = null;
 
              // Title
             var title = document.getElementsByClassName("title");
@@ -432,7 +433,8 @@
           var items = document.getElementsByClassName("item");
           for (var i = 0; i < items.length; i++) {
             // Item
-            items[i].style.cssText = "height: 70px !important;";
+            //items[i].style.cssText = "height: 70px !important;";
+            items[i].style.height = "70px";
 
             // Title
             var title = document.getElementsByClassName("title");
