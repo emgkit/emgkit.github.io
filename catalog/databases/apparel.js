@@ -49,6 +49,15 @@ const apparel =
 
     // ----------------------------------------
 
+    [   /* Title */         "Shelter Half",
+        /* Description */   "Military Rain Cape \/ Half Tent",
+        /* Image */         "shelter-half.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3Kv8jyu"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Poncho",
         /* Description */   "For rain emergencies.",
         /* Image */         "poncho.webp",
@@ -63,15 +72,6 @@ const apparel =
         /* Image */         "poncho-disposable.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3pT1a3j"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Shelter Half",
-        /* Description */   "Military Rain Cape \/ Half Tent",
-        /* Image */         "shelter-half.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3Kv8jyu"
     ],
 
     // ----------------------------------------
