@@ -786,7 +786,7 @@ ul#toc {
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(93, 95, 99, 0) 0%, rgba(93, 95, 99, 0.75) 50%, rgba(93, 95, 99, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#005d5f63', endColorstr='#005d5f63', GradientType=1);
+    /*filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#005d5f63', endColorstr='#005d5f63', GradientType=1);*/
     /* IE6-9 */
 }
 
