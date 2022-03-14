@@ -4,6 +4,15 @@ const food =
     // Food
     // ----------------------------------------
 
+    [   /* Title */         "Grill",
+        /* Description */   "Portable over-fire camp grill for outdoor open flame cooking.",
+        /* Image */         "grill.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3q2vWGM"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Portable Gas Stove",
         /* Description */   "Use with Propane Fuel. Caution: Avoid Odorless Butane Fuel.",
         /* Image */         "portable-propane-stove.webp",
@@ -76,8 +85,8 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Stanley 2 Bowl Cook Set",
-        /* Description */   "Stainless Steel, 20oz",
+    [   /* Title */         "2 Bowl Cook Set",
+        /* Description */   "Stanley, Stainless Steel",
         /* Image */         "2-Bowl-Cook-Set.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3CCcVQt"
@@ -85,12 +94,21 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Kettle",
-        /* Description */   "Stainless Steel, 30.4oz",
-        /* Image */         "Snow-Peak-Kettle.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/376KRsT"
+    [   /* Title */         "Camp Cook Set",
+        /* Description */   "Stanley, Stainless Steel, 24oz",
+        /* Image */         "Stanley-Adventure-Camp-Cook-Set.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3IboxLI"
     ],
+
+    // ----------------------------------------
+
+    //[   /* Title */         "Kettle",
+    //    /* Description */   "Stainless Steel, 30.4oz",
+    //    /* Image */         "Snow-Peak-Kettle.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/376KRsT"
+    //],
 
     // ----------------------------------------
 
