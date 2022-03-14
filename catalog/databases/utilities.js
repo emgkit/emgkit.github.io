@@ -149,10 +149,10 @@ const utilities =
     // ----------------------------------------
 
     [   /* Title */         "Compass",
-        /* Description */   "Brunton TruArc 3 Baseplate",
+        /* Description */   "Navigation",
         /* Image */         "Compass.webp",
         /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3sX6iFb"
+        /* URL */           "https://amzn.to/3MNZWju"
     ],
 
     // ----------------------------------------
