@@ -86,7 +86,7 @@ const defense =
     // ----------------------------------------
 
     [   /* Title */         "Bump Helmet",
-        /* Description */   "Non-ballistic armor helmet.",
+        /* Description */   "Non-ballistic armor head protection.",
         /* Image */         "Bump-Helmet.webp",
         /* Priority */      "extra",
         /* URL */           "https://www.hardheadveterans.com/products/tactical-helmet-ate-bump"
