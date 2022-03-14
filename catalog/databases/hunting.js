@@ -104,7 +104,7 @@ const hunting =
     // ----------------------------------------
 
     [   /* Title */         "Circle Hooks",
-        /* Description */   "Gamakatsu, Size 2",
+        /* Description */   "Gamakatsu",
         /* Image */         "Circle-Hooks.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3pUpce2"
