@@ -97,8 +97,8 @@ const shelter =
     [   /* Title */         "Mylar Blankets",
         /* Description */   "Emergency Thermal Blankets",
         /* Image */         "mylar-blanket.webp",
-        /* Priority */      "essential  bugout",
-        /* URL */           "https://amzn.to/3CtfBQm"
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3KJfSSh"
     ],
 
     // ----------------------------------------
