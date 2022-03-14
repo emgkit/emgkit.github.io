@@ -68,7 +68,7 @@ const shelter =
     // ----------------------------------------
 
     [   /* Title */         "Sleeping Bag",
-        /* Description */   "SnugPak Basecamp Ops Sleeper Expedition",
+        /* Description */   "SnugPak Basecamp Ops Sleeper Expedition, Temperature Rating 10&#176;F.",
         /* Image */         "snugpak-sleeping-bag.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3vXI3Zw"
@@ -77,7 +77,7 @@ const shelter =
     // ----------------------------------------
 
     [   /* Title */         "Bivvi Bag",
-        /* Description */   "Snugpak Special Forces",
+        /* Description */   "Weatherproof outer shell for sleeping bag.",
         /* Image */         "Snugpak-Special-Forces-Bivvi-Bag.webp",
         /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3MFGXHV"
@@ -86,7 +86,7 @@ const shelter =
     // ----------------------------------------
 
     [   /* Title */         "Foam Sleeping Pad ",
-        /* Description */   "Therm-a-Rest RidgeRest",
+        /* Description */   "Use under tent or sleeping bag. Resist heat loss to the ground.",
         /* Image */         "foam-sleeping-pad.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3J5duFb"

@@ -131,7 +131,7 @@ const electronics =
     // ----------------------------------------
 
     [   /* Title */         "Kindle",
-        /* Description */   "For emergency information and guides.",
+        /* Description */   "For portable emergency information and guides.",
         /* Image */         "Kindle.webp",
         /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3q0zadM"

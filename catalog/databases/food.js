@@ -4,11 +4,47 @@ const food =
     // Food
     // ----------------------------------------
 
-    [   /* Title */         "Cooler",
-        /* Description */   "Igloo 52qt",
-        /* Image */         "cooler.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3CBii2t"
+    [   /* Title */         "Portable Gas Stove",
+        /* Description */   "Use with Propane Fuel. Caution: Avoid Odorless Butane Fuel.",
+        /* Image */         "portable-propane-stove.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3JcLrU0"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Propane Fuel",
+        /* Description */   "Propane Tank for Grills and Stoves, 16oz",
+        /* Image */         "propane-fuel.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3J1A41m"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Portable Wood Stove",
+        /* Description */   "Stainless Steel, 16oz (1lb)",
+        /* Image */         "portable-wood-stove.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3vU0VIL"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Portable Wood Stove",
+        /* Description */   "Titanium, 5.4oz (0.34lb), Ultra Lightweight",
+        /* Image */         "Portable-Wood-Stove-Titanium.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3i3IsBp"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Emergency Stove",
+        /* Description */   "Requires no liquids, priming, or wick.",
+        /* Image */         "Emergency-Stove.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3tMt7Li"
     ],
 
     // ----------------------------------------
@@ -49,42 +85,6 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Portable Wood Stove",
-        /* Description */   "Stainless Steel",
-        /* Image */         "portable-wood-stove.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3vU0VIL"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Portable Stove",
-        /* Description */   "Use with Propane Fuel. Caution: Avoid Odorless Butane Fuel.",
-        /* Image */         "portable-propane-stove.webp",
-        /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3JcLrU0"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Propane Fuel",
-        /* Description */   "Propane Tank for Grills and Stoves, 16oz",
-        /* Image */         "propane-fuel.webp",
-        /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3J1A41m"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Emergency Stove",
-        /* Description */   "Requires no liquids, priming, or wick.",
-        /* Image */         "Emergency-Stove.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3tMt7Li"
-    ],
-
-    // ----------------------------------------
-
     [   /* Title */         "Kettle",
         /* Description */   "Stainless Steel, 30.4oz",
         /* Image */         "Snow-Peak-Kettle.webp",
@@ -112,8 +112,8 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Can Opener",
-        /* Description */   "Military Style, Small",
+    [   /* Title */         "Can Opener Small",
+        /* Description */   "Military Style",
         /* Image */         "Military-Style-Can-Opener.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3vZyqcI"
@@ -121,6 +121,14 @@ const food =
 
     // ----------------------------------------
 
+    [   /* Title */         "Cooler",
+        /* Description */   "Igloo 52qt",
+        /* Image */         "cooler.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3CBii2t"
+    ],
+
+    // ----------------------------------------
     [   /* Title */         "Storage Containers",
         /* Description */   "BPA-Free Plastic",
         /* Image */         "food-storage-containers.webp",
@@ -175,7 +183,7 @@ const food =
     // ----------------------------------------
 
     [   /* Title */         "Freeze Dried Food",
-        /* Description */   "",
+        /* Description */   "Longest shelf life in the industry.",
         /* Image */         "Freeze-Dried-Food.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3tSkM8P"

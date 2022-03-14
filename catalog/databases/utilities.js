@@ -203,7 +203,7 @@ const utilities =
     // ----------------------------------------
 
     [   /* Title */         "Liquid Soap",
-        /* Description */   "",
+        /* Description */   "General cleaning",
         /* Image */         "Dawn-Soap.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3sZUthR"

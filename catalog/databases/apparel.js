@@ -94,8 +94,17 @@ const apparel =
 
     // ----------------------------------------
 
+    [   /* Title */         "Duty Belt",
+        /* Description */   "For your knife, flashlight, medkit and other gear.",
+        /* Image */         "Duty-Belt.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3KKob0m"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Insulated Gloves",
-        /* Description */   "Protection from Cold",
+        /* Description */   "Protection from cold.",
         /* Image */         "Insulated-Gloves.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3vUVadW"

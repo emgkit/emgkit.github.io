@@ -4,6 +4,15 @@ const hygiene =
     // Hygiene
     // ----------------------------------------
 
+    [   /* Title */         "Unbreakable Mirror",
+        /* Description */   "Stainless Steel",
+        /* Image */         "Unbreakable-Mirror.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/3Cys4Cl"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Wet Wipes",
         /* Description */   "70% Alcohol Hand Sanitizer",
         /* Image */         "Wet-Wipes.webp",
@@ -49,8 +58,17 @@ const hygiene =
 
     // ----------------------------------------
 
+    [   /* Title */         "Floss",
+        /* Description */   "Oral Care",
+        /* Image */         "floss.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3CGVher"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Mouthwash",
-        /* Description */   "Oral Care Antiseptic",
+        /* Description */   "Oral Care Antiseptic, Travel Size",
         /* Image */         "mouth-wash.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3KDYsX9"
@@ -58,10 +76,11 @@ const hygiene =
 
     // ----------------------------------------
 
-    [   /* Title */         "Unbreakable Mirror",
-        /* Description */   "Stainless Steel",
-        /* Image */         "Unbreakable-Mirror.webp",
-        /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3Cys4Cl"
+    [   /* Title */         "Toilet Tissue",
+        /* Description */   "Travel Size",
+        /* Image */         "toilet-tissue.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3w5tC5N"
     ],
+
 ];

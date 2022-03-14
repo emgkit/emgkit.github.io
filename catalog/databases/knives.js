@@ -122,7 +122,7 @@ const knives =
     // ----------------------------------------
 
     [   /* Title */         "Maintenance Oil",
-        /* Description */   "For carbon steel knives.",
+        /* Description */   "To prevent rust on carbon steel knives.",
         /* Image */         "knife-oil.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3KwzcSB"

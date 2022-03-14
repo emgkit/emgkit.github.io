@@ -140,7 +140,7 @@ const water =
     // ----------------------------------------
 
     [   /* Title */         "Water Purifier Bottle",
-        /* Description */   "GRAYL GeoPress 24 oz ",
+        /* Description */   "GRAYL GeoPress 24oz ",
         /* Image */         "GRAYL-GeoPress-24oz-Water-Purifier-Bottle.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3tTLb6h"
