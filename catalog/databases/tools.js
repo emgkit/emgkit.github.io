@@ -88,7 +88,7 @@ const tools =
     [   /* Title */         "Diagonal Cutters",
         /* Description */   "8 in, For cutting steel wire.",
         /* Image */         "Diagonal-Cutters.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "recommend",
         /* URL */           "https://amzn.to/37cOGg9"
     ],
 
