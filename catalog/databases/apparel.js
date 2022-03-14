@@ -71,7 +71,7 @@ const apparel =
         /* Description */   "For rain emergencies.",
         /* Image */         "poncho-disposable.webp",
         /* Priority */      "recommend bugout",
-        /* URL */           "https://amzn.to/3pT1a3j"
+        /* URL */           "https://amzn.to/3w2bqtT"
     ],
 
     // ----------------------------------------
