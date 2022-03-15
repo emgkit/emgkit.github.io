@@ -25,7 +25,7 @@ const apparel =
     [   /* Title */         "Sunglasses",
         /* Description */   "Sun Protection",
         /* Image */         "sunglasses.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/37kaPJG"
     ],
 
@@ -115,7 +115,7 @@ const apparel =
     [   /* Title */         "Work Gloves",
         /* Description */   "Leather",
         /* Image */         "Well-Lamont-Leather-Work-Gloves.webp",
-        /* Priority */      "essential",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/35G3YtJ"
     ],
 

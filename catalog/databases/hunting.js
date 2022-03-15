@@ -142,7 +142,7 @@ const hunting =
     [   /* Title */         "Fish Bait",
         /* Description */   "Salmon Eggs",
         /* Image */         "bait-salmon-eggs.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/35UffX8"
     ],
 

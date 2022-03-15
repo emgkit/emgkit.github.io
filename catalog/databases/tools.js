@@ -205,7 +205,7 @@ const tools =
     [   /* Title */         "Duct Tape",
         /* Description */   "60 Yard",
         /* Image */         "Duck-Tape.webp",
-        /* Priority */      "essential",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3Cy6wWQ"
     ],
 

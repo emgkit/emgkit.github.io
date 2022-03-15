@@ -61,7 +61,7 @@ const medkit =
     [   /* Title */         "Nitrile Gloves",
         /* Description */   "Sterile, to prevent infection.",
         /* Image */         "Nitrile-Glovess.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3i7yJdl"
     ],
 
@@ -142,7 +142,7 @@ const medkit =
     [   /* Title */         "Israeli Bandage",
         /* Description */   "Compression Bandage",
         /* Image */         "Israeli-Bandage.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3hU2rlY"
     ],
 
@@ -214,7 +214,7 @@ const medkit =
     [   /* Title */         "Eyewash",
         /* Description */   "Refill, 4oz",
         /* Image */         "Eyewash.webp",
-        /* Priority */      "extra",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3pTkZrg"
     ],
 
@@ -313,7 +313,7 @@ const medkit =
     [   /* Title */         "Hand Sanitizer",
         /* Description */   "Kills most common germs that may cause illness.",
         /* Image */         "Hand-Sanitizer.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3ia5PJz"
     ],
 
@@ -385,7 +385,7 @@ const medkit =
     [   /* Title */         "Pain Relief Pills",
         /* Description */   "Tylenol",
         /* Image */         "Tylenol.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3KBlfTl"
     ],
 

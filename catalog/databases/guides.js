@@ -16,7 +16,7 @@ const guides =
     [   /* Title */         "SAS Urban Survival Guide",
         /* Description */   "Natural Disasters, Fires, Home Invasions",
         /* Image */         "SAS-Urban-Survival-Handbook.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3CthFYR"
     ],
 
@@ -34,7 +34,7 @@ const guides =
     [   /* Title */         "Bushcraft 101",
         /* Description */   "Wilderness Survival",
         /* Image */         "Bushcraft-101.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3I1ClIm"
     ],
 
@@ -106,7 +106,7 @@ const guides =
     [   /* Title */         "Knot Card",
         /* Description */   "Waterproof",
         /* Image */         "Pro-Knot-Outdoor-Rope-Knot-Cards.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/34uEvTd"
     ],
 

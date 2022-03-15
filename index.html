@@ -125,6 +125,7 @@
                         <div id="sort-tags">
                           <button onclick="sortAll()"><span class="icon" style="color: #ff0000;">&#9673;&#xFE0E;</span> All</button>
                           <button onclick="sortEssential()"><span class="icon" style="color: #f7b900;">&#9733;&#xFE0E;</span> Essential</button>
+                          <button onclick="sortImportant()"><span class="icon" style="color: #C0C0C0;">&#9670;&#xFE0E;</span> Important</button>
                           <button onclick="sortRecommended()"><span class="icon" style="color: #0070FF;">&#10004;&#xFE0E;</span> Recommended</button>
                           <button onclick="sortBugout()"><span class="icon" style="color: #4CBB17;">&#9752;&#xFE0E;</span> Bugout</button>
                         </div>
@@ -279,7 +280,7 @@
             var pathArray = window.location.pathname.split('/');
 
             // Category Titles & Databases
-            const categories =
+            var categories =
             [
                 ["Shelter",     [shelter]],
                 ["Bags",        [bags]],
@@ -344,6 +345,7 @@
                             '<a href=\"' + url + '\" target=\"_blank\" class=\"item ' + priority + '\">' +
                                 '<div class=\"symbols\">' +
                                   '<div class=\"symbol-essential\"></div>' +
+                                  '<div class=\"symbol-important\"></div>' +
                                   '<div class=\"symbol-bugout\"></div>' +
                                 '</div>' +
                                 '<div class=\"img-wrapper\">' +
@@ -367,17 +369,26 @@
                 items_html = ""; // clear
 
                 // Generate Item Symbols
-                const item_html = document.getElementsByClassName("item");
+                item_html = document.getElementsByClassName("item");
+
                 for (var i = 0; i < item_html.length; i++) {
-                  // Essential Shamrock
+                  // Essential Bugout (Gold Shamrock)
                   if (item_html[i].classList.contains("essential") && item_html[i].classList.contains("bugout")) {
                     document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9752;&#xFE0E;";
                   }
-                  // Essentials Star
+                  // Essential (Gold Star)
                   else if (item_html[i].classList.contains("essential")) {
                     document.getElementsByClassName("symbol-essential")[i].innerHTML = "&#9733;&#xFE0E;";
                   }
-                  // Bugout Shamrock
+                  // Important Bugout (Silver Shamrock)
+                  else if (item_html[i].classList.contains("important") && item_html[i].classList.contains("bugout")) {
+                    document.getElementsByClassName("symbol-important")[i].innerHTML = "&#9752;&#xFE0E;";
+                  }
+                  // Important Diamond (Silver Diamond)
+                  else if (item_html[i].classList.contains("important")) {
+                    document.getElementsByClassName("symbol-important")[i].innerHTML = "&#9670;&#xFE0E;";
+                  }
+                  // Bugout (Green Shamrock)
                   else if (item_html[i].classList.contains("bugout")) {
                     document.getElementsByClassName("symbol-bugout")[i].innerHTML = "&#9752;&#xFE0E;";
                   }
@@ -474,12 +485,25 @@
           }
         }
 
+        // View Important
+        function sortImportant() {
+          var x = document.getElementsByClassName("item");
+          for (var i = 0; i < x.length; i++) {
+            if (x[i].classList.contains("important") || x[i].classList.contains("essential")) {
+              x[i].style.setProperty('display', 'block', '');
+            }
+            else {
+              x[i].style.setProperty('display', 'none', 'important');
+            }
+          }
+        }
+
         // View Recommended
         function sortRecommended() {
           var x = document.getElementsByClassName("item");
           for (var i = 0; i < x.length; i++) {
             //var s = x[i].style.cssText;
-            if (x[i].classList.contains("essential") || x[i].classList.contains("recommend")) {
+            if (x[i].classList.contains("recommend") || x[i].classList.contains("important") || x[i].classList.contains("essential")) {
               x[i].style.setProperty('display', 'block', '');
             }
             else {

@@ -61,7 +61,7 @@ const defense =
     [   /* Title */         "Bear Spray",
         /* Description */   "Wilderness Protection",
         /* Image */         "Bear-Spray.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3sZJjtq"
     ],
 

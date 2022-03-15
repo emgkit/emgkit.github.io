@@ -1191,8 +1191,14 @@ ul#toc {
 
 .symbol-essential {
     width: fit-content;
-    padding: 0 2px 0 0;
+    /*padding: 0 2px 0 0;*/
     color: #f7b900;
+}
+
+.symbol-important {
+    width: fit-content;
+    padding: 0 2px 0 0;
+    color: #C0C0C0;
 }
 
 .symbol-bugout {

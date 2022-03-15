@@ -151,7 +151,7 @@ const water =
     [   /* Title */         "Personal Water Filter",
         /* Description */   "LifeStraw",
         /* Image */         "lifestraw.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3hT9WtJ"
     ],
 

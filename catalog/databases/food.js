@@ -34,7 +34,7 @@ const food =
     [   /* Title */         "Portable Wood Stove",
         /* Description */   "Stainless Steel, 16oz (1lb)",
         /* Image */         "portable-wood-stove.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/3vU0VIL"
     ],
 
@@ -43,7 +43,7 @@ const food =
     [   /* Title */         "Portable Wood Stove",
         /* Description */   "Titanium, 5.4oz (0.34lb), Ultra Lightweight",
         /* Image */         "Portable-Wood-Stove-Titanium.webp",
-        /* Priority */      "extra bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3i3IsBp"
     ],
 
@@ -52,7 +52,7 @@ const food =
     [   /* Title */         "Emergency Stove",
         /* Description */   "Requires no liquids, priming, or wick.",
         /* Image */         "Emergency-Stove.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3tMt7Li"
     ],
 
@@ -133,7 +133,7 @@ const food =
     [   /* Title */         "Can Opener Small",
         /* Description */   "Military Style",
         /* Image */         "Military-Style-Can-Opener.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3vZyqcI"
     ],
 
