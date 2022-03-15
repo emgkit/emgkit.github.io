@@ -58,6 +58,15 @@ const medkit =
 
     // ----------------------------------------
 
+    [   /* Title */         "Nitrile Glovess",
+        /* Description */   "Sterile, to prevent infection.",
+        /* Image */         "Nitrile-Glovess.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3i7yJdl"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Trauma Shears",
         /* Description */   "For cutting clothing and bandages.",
         /* Image */         "Trauma-Shears.webp",
@@ -88,7 +97,7 @@ const medkit =
     [   /* Title */         "Sutures",
         /* Description */   "Sterile Thread with Needle, plus Tools.",
         /* Image */         "Sutures.webp",
-        /* Priority */      "essential bugout",
+        /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3Ja4ePZ"
     ],
 
@@ -322,7 +331,7 @@ const medkit =
     [   /* Title */         "Sunscreen",
         /* Description */   "SPF 50",
         /* Image */         "Sunscreen.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3I6NfNb"
     ],
 
@@ -358,7 +367,7 @@ const medkit =
     [   /* Title */         "Imodium A-D",
         /* Description */   "Anti-Diarrheal Medicine",
         /* Image */         "Imodium.webp",
-        /* Priority */      "extra bugout",
+        /* Priority */      "extra",
         /* URL */           "https://amzn.to/37jS49f"
     ],
 
