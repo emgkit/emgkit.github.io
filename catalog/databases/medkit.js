@@ -310,7 +310,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "Hand-Sanitizer",
+    [   /* Title */         "Hand Sanitizer",
         /* Description */   "Kills most common germs that may cause illness.",
         /* Image */         "Hand-Sanitizer.webp",
         /* Priority */      "essential bugout",
