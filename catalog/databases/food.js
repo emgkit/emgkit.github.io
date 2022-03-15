@@ -34,7 +34,7 @@ const food =
     [   /* Title */         "Portable Wood Stove",
         /* Description */   "Stainless Steel, 16oz (1lb)",
         /* Image */         "portable-wood-stove.webp",
-        /* Priority */      "extra bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3vU0VIL"
     ],
 
@@ -43,7 +43,7 @@ const food =
     [   /* Title */         "Portable Wood Stove",
         /* Description */   "Titanium, 5.4oz (0.34lb), Ultra Lightweight",
         /* Image */         "Portable-Wood-Stove-Titanium.webp",
-        /* Priority */      "important bugout",
+        /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3i3IsBp"
     ],
 
@@ -70,7 +70,7 @@ const food =
     [   /* Title */         "Mess Kit Silverware",
         /* Description */   "USGI, Stainless Steel",
         /* Image */         "mess-kit-silverware.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://www.ebay.com/sch/i.html?_nkw=usgi+mess+kit+silverware&_sacat=0&rt=nc&LH_BIN=1"
     ],
 

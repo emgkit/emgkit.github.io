@@ -43,7 +43,7 @@ const hygiene =
     [   /* Title */         "Toothbrush",
         /* Description */   "Oral Care",
         /* Image */         "toothbrush.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3MEXkV1"
     ],
 
@@ -52,7 +52,7 @@ const hygiene =
     [   /* Title */         "Toothpaste",
         /* Description */   "Oral Care",
         /* Image */         "toothpaste.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3HXLt0L"
     ],
 
@@ -79,7 +79,7 @@ const hygiene =
     [   /* Title */         "Toilet Tissue",
         /* Description */   "Travel Size",
         /* Image */         "toilet-tissue.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3w5tC5N"
     ],
 

@@ -88,7 +88,7 @@ const shelter =
     [   /* Title */         "Foam Sleeping Pad ",
         /* Description */   "Use under tent or sleeping bag. Resist heat loss to the ground.",
         /* Image */         "foam-sleeping-pad.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3J5duFb"
     ],
 
