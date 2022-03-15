@@ -103,10 +103,10 @@ const bags =
 
     // ----------------------------------------
 
-    [   /* Title */         "Backpack Waterproof Cover",
-        /* Description */   "Osprey Ultralight Raincover",
+    [   /* Title */         "Backpack Raincover",
+        /* Description */   "Waterproof Cover",
         /* Image */         "Osprey-Ultralight-Raincover.webp",
         /* Priority */      "extra bugout",
-        /* URL */           "https://amzn.to/3HZczVa"
+        /* URL */           "https://amzn.to/3MTX7xq"
     ],
 ];
