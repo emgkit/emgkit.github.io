@@ -120,12 +120,12 @@
                 <div class="row">
 
                     <!-- Tag Sort-->
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
 
                         <div id="sort-tags">
                           <button onclick="sortAll()"><span class="icon" style="color: #ff0000;">&#9673;&#xFE0E;</span> All</button>
                           <button onclick="sortEssential()"><span class="icon" style="color: #f7b900;">&#9733;&#xFE0E;</span> Essential</button>
-                          <button onclick="sortImportant()"><span class="icon" style="color: #C0C0C0;">&#9670;&#xFE0E;</span> Important</button>
+                          <button onclick="sortImportant()"><span class="icon" style="color: #C0C0C0;">&#11045;&#xFE0E;</span> Important</button>
                           <button onclick="sortRecommended()"><span class="icon" style="color: #0070FF;">&#10004;&#xFE0E;</span> Recommended</button>
                           <button onclick="sortBugout()"><span class="icon" style="color: #4CBB17;">&#9752;&#xFE0E;</span> Bugout</button>
                         </div>
@@ -133,7 +133,7 @@
                     </div>
 
                     <!-- View -->
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
 
                         <div id="view">
                           <button onclick="viewNormal()"><span class="icon" style="color: #ff0000;"></span>&#9645;&#xFE0E; Normal</button>
@@ -386,7 +386,7 @@
                   }
                   // Important Diamond (Silver Diamond)
                   else if (item_html[i].classList.contains("important")) {
-                    document.getElementsByClassName("symbol-important")[i].innerHTML = "&#9670;&#xFE0E;";
+                    document.getElementsByClassName("symbol-important")[i].innerHTML = "&#11045;&#xFE0E;";
                   }
                   // Bugout (Green Shamrock)
                   else if (item_html[i].classList.contains("bugout")) {
