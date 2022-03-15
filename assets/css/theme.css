@@ -831,45 +831,85 @@ ul#toc {
 /* If Width Smaller or Equal to 480px */
 
 @media screen and (max-width: 480px) {
-    #view {
-        margin: 0 0 2rem 0;
-    }
     #sort-tags {
         margin: 0 0 0.7rem 0;
     }
+    #view {
+        margin: 0 0 2rem 0;
+    }
 }
 
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media screen and (max-width: 575.98px) {
+    #sort-tags,
+    #view {
+        justify-content: center;
+        width: 100%;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px) */
 
 @media screen and (max-width: 767.98px) {
-    #view,
-    #sort-tags {
+    #sort-tags,
+    #view {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 11px;
+        column-gap: 9px;
         float: none !important;
         text-align: center;
     }
-}
-
-
-/* If Width Larger than 480px */
-
-@media screen and (min-width: 481px) {
-    #view {
-        float: right;
-    }
-    #view,
     #sort-tags {
-        margin: 0 0 1rem 0;
+        margin: 0.5rem 0 1rem 0;
+    }
+    #view {
+        margin: 0.5rem 0 2.2rem 0;
     }
 }
 
-#view button,
-#sort-tags button {
+/* If Width Larger than 575px */
+
+@media screen and (min-width: 576px) {
+    #sort-tags,
+    #view {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 9px;
+        column-gap: 9px;
+        margin: 0.5rem 0 2rem 0;
+        width: 100%;
+    }
+
+    #sort-tags {
+        justify-content: left;
+    } 
+    #view {
+        justify-content: right;
+
+    }
+}
+
+/* If Width Larger than 768 */
+
+@media screen and (min-width: 768) {
+    #sort-tags,
+    #view {
+        margin: 0.5rem 0 2.5rem 0;
+    }
+}
+
+#sort-tags button,
+#view button
+{
     min-width: 75px;
     /*border: 1px solid #f00;*/
     border: none;
     padding: 0.4rem 0.6rem;
-    margin: 0.4rem 0.2rem;
+    /*margin: 0.4rem 0.2rem;*/
     background-color: #fff;
     /*box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
     box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.05);
@@ -877,14 +917,14 @@ ul#toc {
     color: #000;
 }
 
-#view button:hover,
-#sort-tags button:hover {
+#sort-tags button:hover,
+#view button:hover {
     outline: 1px solid #ff0000;
     /*background-color: #f4f4f4;*/
 }
 
-#view button:focus,
-#sort-tags button:focus {
+#sort-tags button:focus,
+#view button:focus {
     outline: 1px solid #ff0000;
     box-shadow: none !important;
 }
@@ -1191,13 +1231,11 @@ ul#toc {
 
 .symbol-essential {
     width: fit-content;
-    /*padding: 0 2px 0 0;*/
     color: #f7b900;
 }
 
 .symbol-important {
     width: fit-content;
-    padding: 0 2px 0 0;
     color: #C0C0C0;
 }
 
