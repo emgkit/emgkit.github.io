@@ -103,8 +103,8 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Motorola T600 Walkie Talkies",
-        /* Description */   "4AA, FRS\/GMRS, IP67 Waterproof",
+    [   /* Title */         "Walkie Talkies",
+        /* Description */   "Motorola T600, 4AA, FRS\/GMRS, IP67 Waterproof",
         /* Image */         "Motorola-T600-Talkabout-Radio.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3CzlsUz"

@@ -219,7 +219,7 @@ const food =
     // ----------------------------------------
 
     [   /* Title */         "SOS Food Bar",
-        /* Description */   "3600 Calories, 3-Day Package, 5-Year Shelf Life",
+        /* Description */   "3600 Calories, 3-Day Package, 5-Year shelf life.",
         /* Image */         "food-bar.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3tNmubk"

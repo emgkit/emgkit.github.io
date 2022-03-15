@@ -122,7 +122,7 @@ const hunting =
     // ----------------------------------------
 
     [   /* Title */         "Speedhooks",
-        /* Description */   "No fishing pole required",
+        /* Description */   "No fishing rod required",
         /* Image */         "Speedhooks.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/3vTFVlC"
