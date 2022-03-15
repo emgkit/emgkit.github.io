@@ -58,7 +58,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "Nitrile Glovess",
+    [   /* Title */         "Nitrile Gloves",
         /* Description */   "Sterile, to prevent infection.",
         /* Image */         "Nitrile-Glovess.webp",
         /* Priority */      "essential bugout",
