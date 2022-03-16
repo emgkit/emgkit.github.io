@@ -13,12 +13,12 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "ESEE-6",
-        /* Description */   "6.50in Blade, Fixed Blade, 1095 Carbon Steel",
-        /* Image */         "6.50in-esee-6.webp",
-        /* Priority */      "extra",
-        /* URL */           "https://amzn.to/3pSeFA2"
-    ],
+    //[   /* Title */         "ESEE-6",
+    //    /* Description */   "6.50in Blade, Fixed Blade, 1095 Carbon Steel",
+    //    /* Image */         "6.50in-esee-6.webp",
+    //    /* Priority */      "extra",
+    //    /* URL */           "https://amzn.to/3pSeFA2"
+    //],
 
     // ----------------------------------------
 
@@ -58,6 +58,15 @@ const knives =
 
     // ----------------------------------------
 
+    [   /* Title */         "Morakniv Garberg",
+        /* Description */   "4.3in Blade, Fixed Blade, Full Tang, Stainless Steel",
+        /* Image */         "4.3in-Morakniv Garberg.webp",
+        /* Priority */      "recommend bugout",
+        /* URL */           "https://amzn.to/37pfhXt"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Morakniv Companion",
         /* Description */   "4.1in Blade, Fixed Blade, Stainless Steel",
         /* Image */         "4.1in-Morakniv-Companion-Fixed-Blade-Outdoor-Knife-Sandvik-Stainless-Steel.webp",
@@ -77,7 +86,7 @@ const knives =
     // ----------------------------------------
 
     [   /* Title */         "Ontario Rat II",
-        /* Description */   "3in Blade, Folding, AUS-8 Steel",
+        /* Description */   "3in Blade, Folding, AUS-8 Stainless Steel",
         /* Image */         "Ontario-Rat-II.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3pPe4PC"
@@ -86,7 +95,7 @@ const knives =
     // ----------------------------------------
 
     [   /* Title */         "Benchmade Mini Griptilian 556",
-        /* Description */   "2.91in Blade, Folding, CPM S30V Steel",
+        /* Description */   "2.91in Blade, Folding, CPM S30V Stainless Steel",
         /* Image */         "Benchmade-Mini-Griptilian-556.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3pSfiJU"
@@ -104,7 +113,7 @@ const knives =
     // ----------------------------------------
 
     [   /* Title */         "Victorinox Huntsman",
-        /* Description */   "Pocket Knife",
+        /* Description */   "Pocket Knife, Multitool, Stainless Steel",
         /* Image */         "Victorinox-Swiss-Army-Huntsman-Pocket-Knife.webp",
         /* Priority */      "recommend bugout",
         /* URL */           "https://amzn.to/3w2non0"
@@ -112,8 +121,8 @@ const knives =
 
     // ----------------------------------------
 
-    [   /* Title */         "2-Step Knife Sharpener",
-        /* Description */   "Smith's",
+    [   /* Title */         "Knife Sharpener",
+        /* Description */   "Smith's CCKS 2-Step",
         /* Image */         "Smith's-2-Step-Knife-Sharpener.webp",
         /* Priority */      "essential bugout",
         /* URL */           "https://amzn.to/35QmHT8"
@@ -122,7 +131,7 @@ const knives =
     // ----------------------------------------
 
     [   /* Title */         "Maintenance Oil",
-        /* Description */   "To prevent rust on carbon steel knives.",
+        /* Description */   "To prevent carbon steel knives from rusting.",
         /* Image */         "knife-oil.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3KwzcSB"
