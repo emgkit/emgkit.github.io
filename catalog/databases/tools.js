@@ -139,11 +139,11 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "E-Tool Pouch",
+    [   /* Title */         "E-Tool Cover",
         /* Description */   "MOLLE compatible",
         /* Image */         "USGI-E-Tool-Case.webp",
         /* Priority */      "important bugout",
-        /* URL */           "https://amzn.to/3pSxanW"
+        /* URL */           "https://amzn.to/3JylLlj"
     ],
 
     // ----------------------------------------
