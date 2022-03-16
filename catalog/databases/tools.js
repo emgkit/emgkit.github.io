@@ -157,7 +157,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "Sharpening File",
+    [   /* Title */         "File",
         /* Description */   "For sharpening Axe.",
         /* Image */         "Sharpening-File.webp",
         /* Priority */      "recommend",
