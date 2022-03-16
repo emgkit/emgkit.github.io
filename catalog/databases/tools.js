@@ -79,7 +79,7 @@ const tools =
     [   /* Title */         "4-Way Sillcock Key",
         /* Description */   "Fits Sillcock, Faucet, Spigots, Valves, Hose Bib.",
         /* Image */         "4-Way-Sillcock-Key.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "important",
         /* URL */           "https://amzn.to/3J6mU38"
     ],
 
@@ -142,7 +142,7 @@ const tools =
     [   /* Title */         "E-Tool Pouch",
         /* Description */   "MOLLE compatible",
         /* Image */         "USGI-E-Tool-Case.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3pSxanW"
     ],
 
