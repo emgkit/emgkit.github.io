@@ -294,6 +294,9 @@ section:last-of-type {
 
 /* Navbar Nav */
 
+.navbar-nav {
+    display: flex;
+}
 
 /* X-Large devices (large desktops, less than 1400px) */
 
@@ -330,14 +333,15 @@ section:last-of-type {
         justify-content: center;
     }
     .navbar-nav {
-        display: flex;
-        flex-direction: row;
+        /*display: flex;*/
+        flex-direction: column;
         align-content: flex-start;
         align-items: center;
         justify-content: left;
         /*display: block;*/
         /*column-count: 3;*/
         width: 70% !important;
+        height: 6.5rem;
         margin: auto auto !important;
         /*padding-top: 3rem;*/
         font-size: 1.1rem;
@@ -350,6 +354,7 @@ section:last-of-type {
 @media screen and (max-width: 767.98px) {
     .navbar-nav {
         width: 65% !important;
+        height: 10rem;
         font-size: 1.2rem;
     }
 }
@@ -360,6 +365,7 @@ section:last-of-type {
 @media screen and (max-width: 575.98px) {
     .navbar-nav {
         width: 65% !important;
+        height: 11rem;
         margin-top: 3rem;
         font-size: 1.2rem;
     }
@@ -388,7 +394,11 @@ section:last-of-type {
     }
     .navbar-nav {
         justify-content: right;
+        height: 100%;
     }
+    /* .navbar-expand-lg .navbar-nav {
+        height: 100%;
+    }*/
 }
 
 
@@ -450,10 +460,6 @@ section:last-of-type {
     color: rgba(255, 255, 255, .5);
     border-color: rgba(255, 255, 255, .1);
     /*margin: 0.5rem auto;*/
-}
-
-.navbar-expand-lg .navbar-nav {
-    height: 100%;
 }
 
 .navbar-toggler-icon {
