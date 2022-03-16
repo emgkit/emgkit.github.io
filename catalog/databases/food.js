@@ -130,7 +130,7 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Can Opener Small",
+    [   /* Title */         "Can Opener (Small)",
         /* Description */   "Military Style",
         /* Image */         "Military-Style-Can-Opener.webp",
         /* Priority */      "important bugout",
@@ -156,7 +156,7 @@ const food =
 
     // ----------------------------------------
 
-    [   /* Title */         "Ziploc Bags Gallon",
+    [   /* Title */         "Ziploc Bags (Gallon)",
         /* Description */   "Large",
         /* Image */         "ziploc-gallon-large.webp",
         /* Priority */      "extra",
@@ -164,7 +164,7 @@ const food =
     ],
     // ----------------------------------------
 
-    [   /* Title */         "Ziploc Bags Quart",
+    [   /* Title */         "Ziploc Bags (Quart)",
         /* Description */   "Small",
         /* Image */         "ziploc-quart-small.webp",
         /* Priority */      "extra",

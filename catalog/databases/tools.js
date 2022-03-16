@@ -203,7 +203,7 @@ const tools =
     // ----------------------------------------
 
     [   /* Title */         "Duct Tape",
-        /* Description */   "60 Yard",
+        /* Description */   "Multipurpose",
         /* Image */         "Duck-Tape.webp",
         /* Priority */      "important",
         /* URL */           "https://amzn.to/3Cy6wWQ"

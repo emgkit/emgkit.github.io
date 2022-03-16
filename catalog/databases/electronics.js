@@ -49,7 +49,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Flashlight Large",
+    [   /* Title */         "Flashlight (Large)",
         /* Description */   "3-Cell D",
         /* Image */         "Maglite.webp",
         /* Priority */      "extra",
@@ -58,7 +58,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Flashlight Medium",
+    [   /* Title */         "Flashlight (Medium)",
         /* Description */   "Streamlight 68750 Dualie 3AA 140-Lumen",
         /* Image */         "Streamlight-68750-Dualie-3AA-140-Lumen.webp",
         /* Priority */      "essential",
@@ -67,7 +67,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Flashlight Small",
+    [   /* Title */         "Flashlight (Small)",
         /* Description */   "Streamlight Stylus 2AAA",
         /* Image */         "Streamlight-Stylus-Flashlight.webp",
         /* Priority */      "recommend bugout",

@@ -122,7 +122,7 @@ const apparel =
     // ----------------------------------------
 
     [   /* Title */         "Wool Socks",
-        /* Description */   "",
+        /* Description */   "Carry extra socks.",
         /* Image */         "wool-socks.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3t3lT6f"

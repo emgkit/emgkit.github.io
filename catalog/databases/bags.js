@@ -40,7 +40,7 @@ const bags =
 
     // ----------------------------------------
 
-    [   /* Title */         "Backpack Small",
+    [   /* Title */         "Backpack (Small)",
         /* Description */   "Jansport",
         /* Image */         "Janspot-Backpack.webp",
         /* Priority */      "extra",
@@ -63,6 +63,15 @@ const bags =
         /* Image */         "Osprey-Daylite-Duffel-45.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/35GS7LY"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Backpack Raincover",
+        /* Description */   "Waterproof Cover",
+        /* Image */         "Osprey-Ultralight-Raincover.webp",
+        /* Priority */      "extra bugout",
+        /* URL */           "https://amzn.to/3MTX7xq"
     ],
 
     // ----------------------------------------
@@ -99,14 +108,5 @@ const bags =
         /* Image */         "Liberty-Safe-Handgun-Vaults-Small-Key-Vault.webp",
         /* Priority */      "extra",
         /* URL */           "https://amzn.to/3MFVeEe"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Backpack Raincover",
-        /* Description */   "Waterproof Cover",
-        /* Image */         "Osprey-Ultralight-Raincover.webp",
-        /* Priority */      "extra bugout",
-        /* URL */           "https://amzn.to/3MTX7xq"
     ],
 ];

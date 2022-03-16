@@ -5,7 +5,7 @@ const water =
     // ----------------------------------------
 
     [   /* Title */         "Water Can 5-Gallon",
-        /* Description */   "Scepter, Wide Mouth",
+        /* Description */   "Scepter, Military Style, Wide Mouth",
         /* Image */         "Scepter-5-Gallon-Water-Can-Wide.webp",
         /* Priority */      "recommend",
         /* URL */           "https://amzn.to/3hXAtpw"
@@ -14,7 +14,7 @@ const water =
     // ----------------------------------------
 
     [   /* Title */         "Water Can 5-Gallon",
-        /* Description */   "Scepter, Military Style",
+        /* Description */   "Scepter, Military Style, with Flexible Spout",
         /* Image */         "water-can-5gal.webp",
         /* Priority */      "essential",
         /* URL */           "https://amzn.to/3pTHjkm"

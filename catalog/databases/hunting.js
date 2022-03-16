@@ -103,6 +103,33 @@ const hunting =
 
     // ----------------------------------------
 
+    [   /* Title */         "Speedhooks",
+        /* Description */   "No fishing rod required",
+        /* Image */         "Speedhooks.webp",
+        /* Priority */      "essential bugout",
+        /* URL */           "https://amzn.to/3vTFVlC"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Fishing Net",
+        /* Description */   "Hoop Size 17\"x12\"",
+        /* Image */         "Fishing-Net.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3Cx8TZE"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Tackle Kit",
+        /* Description */   "Case, Assorted Hooks, Weights \& Lures",
+        /* Image */         "Tackle-Kit.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3IhVZ3h"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Circle Hooks",
         /* Description */   "Gamakatsu",
         /* Image */         "Circle-Hooks.webp",
@@ -121,15 +148,6 @@ const hunting =
 
     // ----------------------------------------
 
-    [   /* Title */         "Speedhooks",
-        /* Description */   "No fishing rod required",
-        /* Image */         "Speedhooks.webp",
-        /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3vTFVlC"
-    ],
-
-    // ----------------------------------------
-
     //[   /* Title */         "Fish Bait",
     //    /* Description */   "Berkley PowerBait",
     //    /* Image */         "fish-bait.webp",
@@ -144,15 +162,6 @@ const hunting =
         /* Image */         "bait-salmon-eggs.webp",
         /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/35UffX8"
-    ],
-
-    // ----------------------------------------
-
-    [   /* Title */         "Fishing Net",
-        /* Description */   "Hoop Size 17\"x12\"",
-        /* Image */         "Fishing-Net.webp",
-        /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3Cx8TZE"
     ],
 
     // ----------------------------------------
