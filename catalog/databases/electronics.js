@@ -13,20 +13,47 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Batteries",
-        /* Description */   "AA",
-        /* Image */         "Energizer-AA-Batteries.webp",
-        /* Priority */      "essential bugout",
-        /* URL */           "https://amzn.to/3vVCECq"
+    [   /* Title */         "Batteries Lithium (AA)",
+        /* Description */   "Long Lasting, 20-Year Shelf Life",
+        /* Image */         "Energizer-AA-Lithium-Batteries.webp",
+        /* Priority */      "important bugout",
+        /* URL */           ""
     ],
 
     // ----------------------------------------
 
-    [   /* Title */         "Batteries",
-        /* Description */   "AAA",
+    [   /* Title */         "Batteries (AA)",
+        /* Description */   "Standard, 10-Year Shelf Life",
+        /* Image */         "Energizer-AA-Batteries.webp",
+        /* Priority */      "essential",
+        /* URL */           "https://amzn.to/3tj1QAY"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Batteries Lithium (AAA)",
+        /* Description */   "Long Lasting, 20-Year Shelf Life",
+        /* Image */         "Energizer-AAA-Lithium-Batteries.webp",
+        /* Priority */      "important bugout",
+        /* URL */           "https://amzn.to/3wdvYj9"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Batteries (AAA)",
+        /* Description */   "Standard, 10-Year Shelf Life",
         /* Image */         "Energizer-AAA-Batteries.webp",
-        /* Priority */      "recommend",
+        /* Priority */      "essential",
         /* URL */           "https://amzn.to/35MDLtd"
+    ],
+
+    // ----------------------------------------
+
+    [   /* Title */         "Batteries Lithium (CR123A)",
+        /* Description */   "10-Year Shelf Life",
+        /* Image */         "CR123A-Lithium-Batteries.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/36bpWVo"
     ],
 
     // ----------------------------------------
@@ -70,7 +97,7 @@ const electronics =
     [   /* Title */         "Flashlight (Small)",
         /* Description */   "Streamlight Stylus 2AAA",
         /* Image */         "Streamlight-Stylus-Flashlight.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3CydqLK"
     ],
 
