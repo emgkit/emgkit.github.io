@@ -220,6 +220,15 @@ const utilities =
 
     // ----------------------------------------
 
+    [   /* Title */         "Round Steel Tin",
+        /* Description */   "Screw Top",
+        /* Image */         "Round-Steel-Tin.webp",
+        /* Priority */      "extra",
+        /* URL */           "https://amzn.to/3IdKfPf"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Trash Bags",
         /* Description */   "Large",
         /* Image */         "trash-bags-large.webp",

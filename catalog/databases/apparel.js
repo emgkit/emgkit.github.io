@@ -79,7 +79,7 @@ const apparel =
     [   /* Title */         "Goretex Jacket \& Pants",
         /* Description */   "Military Issue, Waterproof",
         /* Image */         "Goretex.webp",
-        /* Priority */      "extra",
+        /* Priority */      "extra bugout",
         /* URL */           "https://amzn.to/37pFa9N"
     ],
 

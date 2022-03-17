@@ -61,7 +61,7 @@ const knives =
     [   /* Title */         "Morakniv Garberg",
         /* Description */   "4.3in Blade, Fixed Blade, Full Tang, Stainless Steel",
         /* Image */         "4.3in-Morakniv Garberg.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/37pfhXt"
     ],
 
@@ -115,7 +115,7 @@ const knives =
     [   /* Title */         "Victorinox Huntsman",
         /* Description */   "Pocket Knife, Multitool, Stainless Steel",
         /* Image */         "Victorinox-Swiss-Army-Huntsman-Pocket-Knife.webp",
-        /* Priority */      "recommend bugout",
+        /* Priority */      "important bugout",
         /* URL */           "https://amzn.to/3w2non0"
     ],
 
