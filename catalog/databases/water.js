@@ -125,7 +125,7 @@ const water =
         /* Description */   "Sawyer MINI",
         /* Image */         "Sawyer-MINI-Water-Filtration.webp",
         /* Priority */      "recommend",
-        /* URL */           "https://amzn.to/3tICoE0"
+        /* URL */           "https://amzn.to/3wdpHE5"
     ],
 
     // ----------------------------------------
