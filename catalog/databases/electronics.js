@@ -58,7 +58,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Battery Storage",
+    [   /* Title */         "Battery Storage (AA)",
         /* Description */   "Ammo Storage Box that fits AA Batteries",
         /* Image */         "AA-Battery-Storage-Box.webp",
         /* Priority */      "recommend",
@@ -67,7 +67,7 @@ const electronics =
 
     // ----------------------------------------
 
-    [   /* Title */         "Battery Storage",
+    [   /* Title */         "Battery Storage (AAA)",
         /* Description */   "Ammo Storage Box that fits AAA Batteries",
         /* Image */         "AAA-Battery-Storage-Box.webp",
         /* Priority */      "recommend",
