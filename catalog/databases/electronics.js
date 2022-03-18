@@ -17,7 +17,7 @@ const electronics =
         /* Description */   "Long Lasting, 20-Year Shelf Life",
         /* Image */         "Energizer-AA-Lithium-Batteries.webp",
         /* Priority */      "important bugout",
-        /* URL */           "https://amzn.to/3wlVToK"
+        /* URL */           "https://amzn.to/3N4WBwO"
     ],
 
     // ----------------------------------------
