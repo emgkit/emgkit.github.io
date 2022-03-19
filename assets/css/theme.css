@@ -1663,9 +1663,10 @@ img.clippy {
     #layout-header {
         position: relative !important;
         min-height: 0 !important;
+        margin-top: 0 !important ;
     }
     #layout-content {
-        margin-top: 4rem !important;
+        margin-top: 7rem !important;
     }
     .navbar {
         min-height: 0 !important;
@@ -1695,7 +1696,7 @@ img.clippy {
         justify-content: left !important;
         row-gap: 0 !important;
         column-gap: 0 !important;
-        margin-bottom: 2rem !important;
+        margin-bottom: 2.5rem !important;
     }
     #catalog .item {
         flex-basis: 33% !important;
