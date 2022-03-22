@@ -31,6 +31,15 @@ const defense =
 
     // ----------------------------------------
 
+    [   /* Title */         "Taser",
+        /* Description */   "Check your local laws before purchasing.",
+        /* Image */         "Taser.webp",
+        /* Priority */      "recommend",
+        /* URL */           "https://amzn.to/3udTZ77"
+    ],
+
+    // ----------------------------------------
+
     [   /* Title */         "Stun Gun",
         /* Description */   "Check your local laws before purchasing.",
         /* Image */         "Stun-Gun.webp",
