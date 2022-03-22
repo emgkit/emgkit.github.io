@@ -184,7 +184,7 @@ const tools =
 
     // ----------------------------------------
 
-    [   /* Title */         "Parcord 550",
+    [   /* Title */         "Paracord 550",
         /* Description */   "Mil-Spec Type III",
         /* Image */         "Paracord.webp",
         /* Priority */      "essential bugout",
