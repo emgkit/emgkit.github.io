@@ -301,7 +301,7 @@ const medkit =
 
     // ----------------------------------------
 
-    [   /* Title */         "Rubbing Alochol",
+    [   /* Title */         "Rubbing Alcohol",
         /* Description */   "Sterilization, 70%, 16oz",
         /* Image */         "Rubbing-Alcohol.webp",
         /* Priority */      "essential bugout",
