@@ -966,7 +966,7 @@ ul#toc {
     float: left;
     text-align: center;
     height: 100%;
-    padding: 0.1rem;
+    padding: 0;
     background-color: #fff;
 }
 
@@ -1022,13 +1022,13 @@ ul#toc {
         border-bottom: 1px solid transparent;
     }
     #catalog .img-wrapper {
-        min-width: 150px;
-        max-width: 150px;
+        min-width: 120px;
+        max-width: 120px;
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
@@ -1067,8 +1067,8 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
@@ -1093,6 +1093,7 @@ ul#toc {
     }
     #catalog .item {
         width: 360px;
+        margin-bottom: 0;
         border-bottom: none;
     }
     #catalog .item:hover {
@@ -1104,8 +1105,8 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
@@ -1130,6 +1131,7 @@ ul#toc {
     }
     #catalog .item {
         width: 307px;
+        margin-bottom: 0;
         border-bottom: none;
     }
     #catalog .img-wrapper {
@@ -1138,8 +1140,8 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
@@ -1164,6 +1166,7 @@ ul#toc {
     }
     #catalog .item {
         width: 376.5px;
+        margin-bottom: 0;
         border-bottom: none;
     }
     #catalog .img-wrapper {
@@ -1172,8 +1175,8 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
@@ -1198,6 +1201,7 @@ ul#toc {
     }
     #catalog .item {
         width: 327.5px;
+        margin-bottom: 0;
         border-bottom: none;
         /*outline: 1px solid #ccc;
         box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.10);*/
@@ -1208,8 +1212,8 @@ ul#toc {
         margin: 0 0.9rem 0 0;
     }
     #catalog .img-wrapper img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 95px;
+        max-height: 95px;
     }
     #catalog .title {
         padding: 0 0 0.6rem 0;
